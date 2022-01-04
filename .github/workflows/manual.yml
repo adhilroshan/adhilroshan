@@ -1,0 +1,2 @@
+- name: GitHub README Activity Section Updater
+  uses: MadeByThePinsHub/github-activity-readme@v0.4.1-thepinsteam
