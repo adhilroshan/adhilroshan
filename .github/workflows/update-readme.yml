@@ -1,21 +1,16 @@
-name: Update README
+name: GitHub - Activity - Readme
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
-
+    - cron: "0 0 * * 0"
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Update this repo's README with recent activity
 
     steps:
       - uses: actions/checkout@v2
-
-      # Pin the version to the latest stable version.
-      # If you want to live on edge, use 'master' branch.
-      - uses: MadeByThePinsHub/github-activity-readme@master
+      - uses: jamesgeorge007/github-activity-readme@master
         env:
-          GITHUB_TOKEN: ${{ secrets.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 }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
