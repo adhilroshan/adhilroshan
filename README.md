@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Adhil Roshan</h1>
 <h3 align="center">A Passionate Front-End Developer from India</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=adhilroshan&label=Profile%20views&color=0e75b6&style=flat" alt="adhilroshan" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=adhilroshan&label=Profile%20views&color=0e75b6&style=flat-square" alt="adhilroshan" /> </p>
 
 <p align="left"> <a href="https://twitter.com/adhilroshann" target="blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="adhilroshann" /></a> <a href="https://www.linkedin.com/in/adhilroshan/" target="blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="adhilroshan" /></a>
 <a href="https://instagram.com/adhilroshann" target="blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="adhilroshann" /></a>
