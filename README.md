@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Adhil Roshan</h1>
-<h3 align="center">A Passionate Front-End Developer from India</h3>
+<h3 align="center">A Passionate Full Stack Developer from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=adhilroshan&label=Profile%20views&color=1da1f2&style=for-the-badge" alt="adhilroshan" /> </p>
 
@@ -28,7 +28,7 @@
   
 <br />
 
->If you want something you've never had, you must be willing to do something you've never done. 
+>If you want something you've never had, you must be willing to do something you've never done.
 <!-- Thomas jefferson -->
 
 <h3 align="left">Languages and Tools:</h3>
@@ -47,7 +47,7 @@
 <!-- HTML -->
 <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html5"/> </a>
 <!-- JAVA -->
-<a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="	https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="java"/> </a>
+<a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src=" https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="java"/> </a>
 <!-- JAVASCRIPT -->
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="javascript"/> </a>
 <!-- MONGODB -->
