@@ -20,11 +20,15 @@
 <a href="https://t.me/adhil_roshan" target="blank"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="adhilroshan" /></a>
 </p>
 
-- 🌱 I’m currently learning everything 🤣
+## 🥅 2022 Goals
 
-- 👯 I’m looking to collaborate with other content creators
-
-- 🥅 2022 Goals: Contribute more to Open Source projects
+- Learn a new programming language
+- Learn a new technology ✅
+- Lead a team
+- Earn a promotion ✅
+- Complete a system design
+- Start a business
+- Give a presentation
   
 <br />
 
