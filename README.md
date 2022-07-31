@@ -15,9 +15,9 @@
 <!-- DEV.TO -->
 <a href="https://dev.to/adhilroshan" target="blank"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="adhilroshan" /></a>
 <!-- DISCORD -->
-<a href="https://dev.to/adhilroshan" target="blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="adhilroshan" /></a>
+<a href="https://discord.com/channels/AdhilRoshan#6661" target="blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="adhilroshan" /></a>
 <!-- TELEGRAM -->
-<a href="https://dev.to/adhilroshan" target="blank"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="adhilroshan" /></a>
+<a href="https://t.me/adhil_roshan" target="blank"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="adhilroshan" /></a>
 </p>
 
 - 🌱 I’m currently learning everything 🤣
@@ -60,6 +60,10 @@
 <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="python" /> </a>
 <!-- REACT -->
 <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react"/> </a>
+<!-- Svelte -->
+<a href="https://svelte.dev/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white" alt="react"/> </a>
+<!-- Tailwind CSS -->
+<a href="https://tailwindcss.com" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="react"/> </a>
 </p>
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=adhilroshan&show_icons=true&locale=en&layout=compact&theme=dark&" alt="adhilroshan" /></p>
