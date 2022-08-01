@@ -20,6 +20,8 @@
 <a href="https://t.me/adhil_roshan" target="blank"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="adhilroshan" /></a>
 </p>
 
+![Banner](https://d1csarkz8obe9u.cloudfront.net/posterpreviews/green-roads-quote-tumblr-banner-design-template-058f202261f4be0f0794702e56e92271_screen.jpg?ts=1566595840)
+
 ## 🥅 2022 Goals
 
 - Learn a new programming language
@@ -32,7 +34,7 @@
   
 <br />
 
->If you want something you've never had, you must be willing to do something you've never done.
+<!-- >If you want something you've never had, you must be willing to do something you've never done. -->
 <!-- Thomas jefferson -->
 
 <h3 align="left">Languages and Tools:</h3>
