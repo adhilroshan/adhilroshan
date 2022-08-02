@@ -80,11 +80,13 @@
 <br />
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=adhilroshan&theme=dark&" alt="adhilroshan" /></p>
 
-<details>
+<!-- <details>
   <summary>:zap: Recent GitHub Activity</summary>
   
+
+</details> -->
+
+### :zap: Recent Activity
+
 <!--START_SECTION:activity-->
-
 <!--END_SECTION:activity-->
-
-</details>
