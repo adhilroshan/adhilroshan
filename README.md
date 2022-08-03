@@ -27,7 +27,6 @@
 - Learn a new technology ✅
 - Learn TenserFlow
 - Lead a team
-- Earn a promotion ✅
 - Complete a system design
 - Start a business
   
