@@ -24,13 +24,12 @@
 
 ## 🥅 2022 Goals
 
-- Learn a new programming language
 - Learn a new technology ✅
+- Learn TenserFlow
 - Lead a team
 - Earn a promotion ✅
 - Complete a system design
 - Start a business
-- Give a presentation
   
 <br />
 
