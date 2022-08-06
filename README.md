@@ -46,6 +46,8 @@
 <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3"/> </a>
 <!-- DART -->
 <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="dart" /> </a>
+<!-- Express JS -->
+<a href="https://expressjs.com/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt="ex" /> </a>
 <!-- FLUTTER -->
 <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="flutter"/> </a>
 <!-- HTML -->
