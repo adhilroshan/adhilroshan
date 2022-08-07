@@ -41,6 +41,11 @@
 <!-- Thomas jefferson -->
 
 <!--START_SECTION:waka-->
+
+```text
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 ### :zap: Recent Activity
