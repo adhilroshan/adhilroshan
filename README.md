@@ -32,7 +32,7 @@
   
 <br />
 
-## ☑️ Todo Stats
+## 🚧 Todoist Stats
 
 <!-- TODO-IST:START -->
 🏆  150 Karma Points           
@@ -44,7 +44,7 @@
 <!-- >If you want something you've never had, you must be willing to do something you've never done. -->
 <!-- Thomas jefferson -->
 
-<h3 align="left">Languages and Tools:</h3>
+## Languages and Tools:
 
 <p align="left"><a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="bootstrap" /> </a>
 <!-- C -->
@@ -81,13 +81,13 @@
 <a href="https://tailwindcss.com" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="react"/> </a>
 </p>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=adhilroshan&show_icons=true&locale=en&layout=compact&theme=dark&" alt="adhilroshan" /></p>
+<!-- <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=adhilroshan&show_icons=true&locale=en&layout=compact&theme=dark&" alt="adhilroshan" /></p>
 
 <br />
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=adhilroshan&show_icons=true&locale=en&theme=dark" alt="adhilroshan" /></p>
 <br />
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=adhilroshan&theme=dark&" alt="adhilroshan" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=adhilroshan&theme=dark&" alt="adhilroshan" /></p> -->
 
 <!-- <details>
   <summary>:zap: Recent GitHub Activity</summary>
