@@ -44,6 +44,9 @@
 <!-- >If you want something you've never had, you must be willing to do something you've never done. -->
 <!-- Thomas jefferson -->
 
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 ## 💻 Tech Stack
 
 <p align="left"><a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="bootstrap" /> </a>
