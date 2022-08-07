@@ -51,6 +51,11 @@ No activity tracked
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
+1. ❗️ Closed issue [#7](https://github.com/adhilroshan/starting-with-typescript-exercise/issues/7) in [adhilroshan/starting-with-typescript-exercise](https://github.com/adhilroshan/starting-with-typescript-exercise)
+2. ❗️ Closed issue [#6](https://github.com/adhilroshan/starting-with-typescript-exercise/issues/6) in [adhilroshan/starting-with-typescript-exercise](https://github.com/adhilroshan/starting-with-typescript-exercise)
+3. ❗️ Closed issue [#5](https://github.com/adhilroshan/starting-with-typescript-exercise/issues/5) in [adhilroshan/starting-with-typescript-exercise](https://github.com/adhilroshan/starting-with-typescript-exercise)
+4. ❗️ Closed issue [#4](https://github.com/adhilroshan/starting-with-typescript-exercise/issues/4) in [adhilroshan/starting-with-typescript-exercise](https://github.com/adhilroshan/starting-with-typescript-exercise)
+5. ❗️ Closed issue [#3](https://github.com/adhilroshan/starting-with-typescript-exercise/issues/3) in [adhilroshan/starting-with-typescript-exercise](https://github.com/adhilroshan/starting-with-typescript-exercise)
 <!--END_SECTION:activity-->
 
 ## 💻 Tech Stack
