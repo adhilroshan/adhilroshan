@@ -49,7 +49,8 @@
 <!--START_SECTION:waka-->
 
 ```text
-Svelte   6 mins          █████████████████████████   100.00 %
+JavaScript   39 mins         █████████████▓░░░░░░░░░░░   54.64 %
+Other        12 mins         ████▒░░░░░░░░░░░░░░░░░░░░   17.69 %
 ```
 
 <!--END_SECTION:waka-->
