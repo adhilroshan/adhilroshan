@@ -62,6 +62,8 @@ Other        1 min           ░░░░░░░░░░░░░░░░░
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
+1. 🎉 Merged PR [#1](https://github.com/adhilroshan/netflix-flutter/pull/1) in [adhilroshan/netflix-flutter](https://github.com/adhilroshan/netflix-flutter)
+2. 💪 Opened PR [#1](https://github.com/adhilroshan/netflix-flutter/pull/1) in [adhilroshan/netflix-flutter](https://github.com/adhilroshan/netflix-flutter)
 <!--END_SECTION:activity-->
 
 ## 💻 Tech Stack
