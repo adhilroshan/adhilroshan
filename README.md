@@ -62,8 +62,8 @@ CSS          4 mins          ▓░░░░░░░░░░░░░░░░
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/adhilroshan/netflix-flutter/pull/1) in [adhilroshan/netflix-flutter](https://github.com/adhilroshan/netflix-flutter)
-2. 💪 Opened PR [#1](https://github.com/adhilroshan/netflix-flutter/pull/1) in [adhilroshan/netflix-flutter](https://github.com/adhilroshan/netflix-flutter)
+1. 🎉 Merged PR [#2](https://github.com/adhilroshan/Deluxa/pull/2) in [adhilroshan/Deluxa](https://github.com/adhilroshan/Deluxa)
+2. 💪 Opened PR [#2](https://github.com/adhilroshan/Deluxa/pull/2) in [adhilroshan/Deluxa](https://github.com/adhilroshan/Deluxa)
 <!--END_SECTION:activity-->
 
 ## 💻 Tech Stack
