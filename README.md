@@ -62,8 +62,8 @@ CSS           8 mins          ▒░░░░░░░░░░░░░░░�
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#2](https://github.com/adhilroshan/Deluxa/pull/2) in [adhilroshan/Deluxa](https://github.com/adhilroshan/Deluxa)
-2. 💪 Opened PR [#2](https://github.com/adhilroshan/Deluxa/pull/2) in [adhilroshan/Deluxa](https://github.com/adhilroshan/Deluxa)
+1. 🎉 Merged PR [#4](https://github.com/adhilroshan/Deluxa/pull/4) in [adhilroshan/Deluxa](https://github.com/adhilroshan/Deluxa)
+2. 💪 Opened PR [#4](https://github.com/adhilroshan/Deluxa/pull/4) in [adhilroshan/Deluxa](https://github.com/adhilroshan/Deluxa)
 <!--END_SECTION:activity-->
 
 ## 💻 Tech Stack
