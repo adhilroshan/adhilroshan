@@ -62,8 +62,8 @@ Other        0 secs          ░░░░░░░░░░░░░░░░░
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#4](https://github.com/adhilroshan/Deluxa/pull/4) in [adhilroshan/Deluxa](https://github.com/adhilroshan/Deluxa)
-2. 💪 Opened PR [#4](https://github.com/adhilroshan/Deluxa/pull/4) in [adhilroshan/Deluxa](https://github.com/adhilroshan/Deluxa)
+1. 🗣 Commented on [#2070](https://github.com/remy/nodemon/issues/2070) in [remy/nodemon](https://github.com/remy/nodemon)
+2. 🗣 Commented on [#34819](https://github.com/mui/material-ui/issues/34819) in [mui/material-ui](https://github.com/mui/material-ui)
 <!--END_SECTION:activity-->
 
 ## 💻 Tech Stack
