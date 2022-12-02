@@ -62,8 +62,8 @@ HTML         20 mins         ▒░░░░░░░░░░░░░░░░
 ### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#2070](https://github.com/remy/nodemon/issues/2070) in [remy/nodemon](https://github.com/remy/nodemon)
-2. 🗣 Commented on [#34819](https://github.com/mui/material-ui/issues/34819) in [mui/material-ui](https://github.com/mui/material-ui)
+1. 🎉 Merged PR [#1](https://github.com/ieeesbcev/magnathon-submission/pull/1) in [ieeesbcev/magnathon-submission](https://github.com/ieeesbcev/magnathon-submission)
+2. 💪 Opened PR [#1](https://github.com/ieeesbcev/magnathon-submission/pull/1) in [ieeesbcev/magnathon-submission](https://github.com/ieeesbcev/magnathon-submission)
 <!--END_SECTION:activity-->
 
 ## 💻 Tech Stack
