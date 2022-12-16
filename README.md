@@ -49,7 +49,8 @@
 <!--START_SECTION:waka-->
 
 ```text
-Lua   10 mins         █████████████████████████   100.00 %
+Lua          10 mins         ████████████████████████▒   96.89 %
+JavaScript   0 secs          ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.11 %
 ```
 
 <!--END_SECTION:waka-->
