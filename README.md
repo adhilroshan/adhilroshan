@@ -1,23 +1,45 @@
-<style> 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Poppins&display=swap');
-  *{
-    font-family:'Poppins', sans-serif;
-  }
-  h1{
-
-  }
-  .name{
-    font-family: 'Cinzel Decorative', cursive;
-    font-weight:900;
-    display:block;
-    font-size:10vh
-  }
-</style>
+<!-- 
 <h1 align="center">Hi 👋, I'm <span class="name">Adhil Roshan</span></h1>
-<h2 align="center">A Passionate Developer from India</h3>
+<h2 align="center">A Passionate Developer from India</h3> -->
+![Banner](https://export-download.canva.com/c2Sf0/DAFW5fc2Sf0/17/0/0001-44763116353.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20230106%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230106T050603Z&X-Amz-Expires=45677&X-Amz-Signature=d23dfc1839fa90436feec6c725025e5f9f338cfb0b46b27504c5b486b34c1836&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Adhil%2520Roshan.png&response-expires=Fri%2C%2006%20Jan%202023%2017%3A47%3A20%20GMT)
+
+## <b> 🥅 2023 Goals </b>
+<i>
+
+- Learn Rust
+- Set up PDE
+- Make projects in AI
+- Kubernetes integration and Microservice Projects
+</i>
+<!-- <br /> -->
+
+<!-- >If you want something you've never had, you must be willing to do something you've never done. -->
+<!-- Thomas jefferson -->
+
+## <b> 📊 Weekly Development Breakdown </b>
+
+<!--START_SECTION:waka-->
+
+```text
+Lua             2 hrs 26 mins   ██████████▒░░░░░░░░░░░░░░   40.78 %
+JavaScript      1 hr 15 mins    █████▒░░░░░░░░░░░░░░░░░░░   20.97 %
+TypeScript      1 hr 8 mins     ████▓░░░░░░░░░░░░░░░░░░░░   19.01 %
+Python          19 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.35 %
+HTML            11 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.06 %
+Text            10 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.86 %
+```
+
+<!--END_SECTION:waka-->
+
+### :zap: <b> Recent Activity </b>
+
+<!--START_SECTION:activity-->
+1. 🎉 Merged PR [#1](https://github.com/ieeesbcev/magnathon-submission/pull/1) in [ieeesbcev/magnathon-submission](https://github.com/ieeesbcev/magnathon-submission)
+2. 💪 Opened PR [#1](https://github.com/ieeesbcev/magnathon-submission/pull/1) in [ieeesbcev/magnathon-submission](https://github.com/ieeesbcev/magnathon-submission)
+<!--END_SECTION:activity-->
 
 <br>
-<!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=adhilroshan&label=Profile%20views&color=1da1f2&style=for-the-badge" alt="adhilroshan" /> </p> -->
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=adhilroshan&label=Profile%20views&color=1da1f2&style=for-the-badge" alt="adhilroshan" /> </p>
 <p align="left">
 <!-- TWITTER -->
 <a href="https://twitter.com/adhilroshann" target="blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="adhilroshann" /></a>
@@ -35,43 +57,8 @@
 <a href="https://t.me/adhil_roshan" target="blank"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="adhilroshan" /></a>
 </p>
 
-<!-- ![Banner](https://d1csarkz8obe9u.cloudfront.net/posterpreviews/green-roads-quote-tumblr-banner-design-template-058f202261f4be0f0794702e56e92271_screen.jpg?ts=1566595840) -->
 
-## 🥅 2023 Goals
-
-- Learn Rust
-- Set up PDE
-- Make projects in AI
-- Kubernetes integration and Microservice Projects
-  
-<!-- <br /> -->
-
-<!-- >If you want something you've never had, you must be willing to do something you've never done. -->
-<!-- Thomas jefferson -->
-
-## 📊 Weekly Development Breakdown
-
-<!--START_SECTION:waka-->
-
-```text
-Lua             2 hrs 26 mins   ██████████▒░░░░░░░░░░░░░░   40.78 %
-JavaScript      1 hr 15 mins    █████▒░░░░░░░░░░░░░░░░░░░   20.97 %
-TypeScript      1 hr 8 mins     ████▓░░░░░░░░░░░░░░░░░░░░   19.01 %
-Python          19 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.35 %
-HTML            11 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.06 %
-Text            10 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.86 %
-```
-
-<!--END_SECTION:waka-->
-
-### :zap: Recent Activity
-
-<!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/ieeesbcev/magnathon-submission/pull/1) in [ieeesbcev/magnathon-submission](https://github.com/ieeesbcev/magnathon-submission)
-2. 💪 Opened PR [#1](https://github.com/ieeesbcev/magnathon-submission/pull/1) in [ieeesbcev/magnathon-submission](https://github.com/ieeesbcev/magnathon-submission)
-<!--END_SECTION:activity-->
-
-## Technologies I'm Familiar With: 
+<!-- ## 🧑🏻‍💻 Tech :  -->
 
 <p align="left"><a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="bootstrap" /> </a>
 <!-- C -->
