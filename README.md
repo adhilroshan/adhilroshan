@@ -1,7 +1,7 @@
 <!-- 
 <h1 align="center">Hi 👋, I'm <span class="name">Adhil Roshan</span></h1>
 <h2 align="center">A Passionate Developer from India</h3> -->
-![Banner](https://export-download.canva.com/c2Sf0/DAFW5fc2Sf0/17/0/0001-44763116353.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20230106%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230106T050603Z&X-Amz-Expires=45677&X-Amz-Signature=d23dfc1839fa90436feec6c725025e5f9f338cfb0b46b27504c5b486b34c1836&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Adhil%2520Roshan.png&response-expires=Fri%2C%2006%20Jan%202023%2017%3A47%3A20%20GMT)
+![Banner](https://export-download.canva.com/c2Sf0/DAFW5fc2Sf0/21/0/0001-1509025307.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20230106%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230106T125301Z&X-Amz-Expires=18832&X-Amz-Signature=dd7b7989b6625035ec4ac84ddd00f0ac57fac393831bd7e8753d08781dd31587&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Adhil%2520Roshan.png&response-expires=Fri%2C%2006%20Jan%202023%2018%3A06%3A53%20GMT)
 
 ## <b> 🥅 2023 Goals </b>
 <i>
@@ -41,20 +41,21 @@ Text            10 mins         ▓░░░░░░░░░░░░░░░
 <br>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=adhilroshan&label=Profile%20views&color=1da1f2&style=for-the-badge" alt="adhilroshan" /> </p>
 <p align="left">
+<!-- TELEGRAM -->
+<a href="https://t.me/adhil_roshan" target="blank"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="adhilroshan" /></a>
 <!-- TWITTER -->
 <a href="https://twitter.com/adhilroshann" target="blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="adhilroshann" /></a>
 <!-- LINKEDIN -->
 <a href="https://www.linkedin.com/in/adhilroshan/" target="blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="adhilroshan" /></a>
 <!-- INSTAGRAM -->
 <a href="https://instagram.com/adhilroshann" target="blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="adhilroshann" /></a>
+<!-- DISCORD -->
+<a href="https://discord.com/channels/AdhilRoshan#6661" target="blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="adhilroshan" /></a>
 <!-- MEDIUM -->
 <a href="https://medium.com/@adhilroshan" target="blank"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="adhilroshan" /></a>
 <!-- DEV.TO -->
 <a href="https://dev.to/adhilroshan" target="blank"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="adhilroshan" /></a>
-<!-- DISCORD -->
-<a href="https://discord.com/channels/AdhilRoshan#6661" target="blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="adhilroshan" /></a>
-<!-- TELEGRAM -->
-<a href="https://t.me/adhil_roshan" target="blank"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="adhilroshan" /></a>
+
 </p>
 
 
