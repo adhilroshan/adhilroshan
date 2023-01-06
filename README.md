@@ -12,7 +12,6 @@
     display:block;
     font-size:10vh
   }
-  
 </style>
 <h1 align="center">Hi 👋, I'm <span class="name">Adhil Roshan</span></h1>
 <h2 align="center">A Passionate Developer from India</h3>
