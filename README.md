@@ -1,8 +1,24 @@
-<h1 align="center">Hi 👋, I'm Adhil Roshan</h1>
-<h3 align="center">A Passionate Full Stack Developer from India</h3>
+<style> 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Poppins&display=swap');
+  *{
+    font-family:'Poppins', sans-serif;
+  }
+  h1{
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=adhilroshan&label=Profile%20views&color=1da1f2&style=for-the-badge" alt="adhilroshan" /> </p>
+  }
+  .name{
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight:900;
+    display:block;
+    font-size:10vh
+  }
+  
+</style>
+<h1 align="center">Hi 👋, I'm <span class="name">Adhil Roshan</span></h1>
+<h2 align="center">A Passionate Developer from India</h3>
 
+<br>
+<!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=adhilroshan&label=Profile%20views&color=1da1f2&style=for-the-badge" alt="adhilroshan" /> </p> -->
 <p align="left">
 <!-- TWITTER -->
 <a href="https://twitter.com/adhilroshann" target="blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="adhilroshann" /></a>
@@ -20,26 +36,16 @@
 <a href="https://t.me/adhil_roshan" target="blank"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="adhilroshan" /></a>
 </p>
 
-![Banner](https://d1csarkz8obe9u.cloudfront.net/posterpreviews/green-roads-quote-tumblr-banner-design-template-058f202261f4be0f0794702e56e92271_screen.jpg?ts=1566595840)
+<!-- ![Banner](https://d1csarkz8obe9u.cloudfront.net/posterpreviews/green-roads-quote-tumblr-banner-design-template-058f202261f4be0f0794702e56e92271_screen.jpg?ts=1566595840) -->
 
-## 🥅 2022 Goals
+## 🥅 2023 Goals
 
-- Learn a new technology ✅
-- Learn TenserFlow
-- Lead a team
-- Complete a system design
-- Start a business
+- Learn Rust
+- Set up PDE
+- Make projects in AI
+- Kubernetes integration and Microservice Projects
   
 <!-- <br /> -->
-
-## 🚧 Todoist Stats
-
-<!-- TODO-IST:START -->
-🏆  2,419 Karma Points           
-🌸  Completed 0 tasks today           
-✅  Completed 106 tasks so far           
-⏳  Longest streak is 2 days
-<!-- TODO-IST:END -->
 
 <!-- >If you want something you've never had, you must be willing to do something you've never done. -->
 <!-- Thomas jefferson -->
@@ -66,7 +72,7 @@ Text            10 mins         ▓░░░░░░░░░░░░░░░
 2. 💪 Opened PR [#1](https://github.com/ieeesbcev/magnathon-submission/pull/1) in [ieeesbcev/magnathon-submission](https://github.com/ieeesbcev/magnathon-submission)
 <!--END_SECTION:activity-->
 
-## 💻 Tech Stack
+## Technologies I'm Familiar With: 
 
 <p align="left"><a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="bootstrap" /> </a>
 <!-- C -->
