@@ -21,9 +21,7 @@
 <!--START_SECTION:waka-->
 
 ```text
-JavaScript   53 mins         ███████████████████████▓░   95.30 %
-Svelte       1 min           ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.29 %
-Markdown     0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.41 %
+Svelte   1 min           █████████████████████████   100.00 %
 ```
 
 <!--END_SECTION:waka-->
