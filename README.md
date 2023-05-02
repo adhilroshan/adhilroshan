@@ -18,6 +18,11 @@
 ## <b> 📊 Weekly Development Breakdown </b>
 
 <!--START_SECTION:waka-->
+
+```text
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 ### :zap: <b> Recent Activity </b>
