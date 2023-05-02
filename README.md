@@ -1,7 +1,6 @@
-<!-- 
+
 <h1 align="center">Hi 👋, I'm <span class="name">Adhil Roshan</span></h1>
-<h2 align="center">A Passionate Developer from India</h3> -->
-![Banner](https://export-download.canva.com/c2Sf0/DAFW5fc2Sf0/21/0/0001-1509025307.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20230106%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230106T125301Z&X-Amz-Expires=18832&X-Amz-Signature=dd7b7989b6625035ec4ac84ddd00f0ac57fac393831bd7e8753d08781dd31587&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Adhil%2520Roshan.png&response-expires=Fri%2C%2006%20Jan%202023%2018%3A06%3A53%20GMT)
+<h2 align="center">A Passionate Developer from India</h3>
 
 ## <b> 🥅 2023 Goals </b>
 <i>
@@ -19,16 +18,6 @@
 ## <b> 📊 Weekly Development Breakdown </b>
 
 <!--START_SECTION:waka-->
-
-```text
-Lua             2 hrs 26 mins   ██████████▒░░░░░░░░░░░░░░   40.78 %
-JavaScript      1 hr 15 mins    █████▒░░░░░░░░░░░░░░░░░░░   20.97 %
-TypeScript      1 hr 8 mins     ████▓░░░░░░░░░░░░░░░░░░░░   19.01 %
-Python          19 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.35 %
-HTML            11 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.06 %
-Text            10 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.86 %
-```
-
 <!--END_SECTION:waka-->
 
 ### :zap: <b> Recent Activity </b>
