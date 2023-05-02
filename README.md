@@ -7,7 +7,7 @@
 
 - Learn Rust
 - Set up PDE
-- Make projects in AI
+- Make projects in AI and Web3
 - Kubernetes integration and Microservice Projects
 </i>
 <!-- <br /> -->
