@@ -32,8 +32,8 @@ XML           0 secs          ░░░░░░░░░░░░░░░░�
 ### :zap: <b> Recent Activity </b>
 
 <!--START_SECTION:activity-->
-1. ❗️ Opened issue [#722](https://github.com/Design-and-Code/support/issues/722) in [Design-and-Code/support](https://github.com/Design-and-Code/support)
-2. 💪 Opened PR [#1](https://github.com/ieeesbcev/magnathon-submission/pull/1) in [ieeesbcev/magnathon-submission](https://github.com/ieeesbcev/magnathon-submission)
+1. ❗️ Opened issue [#98](https://github.com/ZeroOctave/ZeroOctave.github.io/issues/98) in [ZeroOctave/ZeroOctave.github.io](https://github.com/ZeroOctave/ZeroOctave.github.io)
+2. ❗️ Opened issue [#7441](https://github.com/EddieHubCommunity/support/issues/7441) in [EddieHubCommunity/support](https://github.com/EddieHubCommunity/support)
 <!--END_SECTION:activity-->
 
 <br>
