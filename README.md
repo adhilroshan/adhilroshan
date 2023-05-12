@@ -32,7 +32,7 @@ XML           0 secs          ░░░░░░░░░░░░░░░░�
 ### :zap: <b> Recent Activity </b>
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/ieeesbcev/magnathon-submission/pull/1) in [ieeesbcev/magnathon-submission](https://github.com/ieeesbcev/magnathon-submission)
+1. ❗️ Opened issue [#722](https://github.com/Design-and-Code/support/issues/722) in [Design-and-Code/support](https://github.com/Design-and-Code/support)
 2. 💪 Opened PR [#1](https://github.com/ieeesbcev/magnathon-submission/pull/1) in [ieeesbcev/magnathon-submission](https://github.com/ieeesbcev/magnathon-submission)
 <!--END_SECTION:activity-->
 
