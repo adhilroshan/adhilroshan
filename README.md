@@ -1,4 +1,4 @@
-[![adhilroshan's GitHub | Topics](https://stats.quine.sh/adhilroshan/topics-over-time?theme=dark)](https://quine.sh)
+
 <h1 align="center">Hi 👋, I'm <span class="name">Adhil Roshan</span></h1>
 <h2 align="center">A Passionate Developer from India</h3>
 
@@ -15,6 +15,8 @@
 <!-- >If you want something you've never had, you must be willing to do something you've never done. -->
 <!-- Thomas jefferson -->
 
+<!-- [![adhilroshan's GitHub | Stats](https://stats.quine.sh/adhilroshan/github?theme=light)](https://quine.sh) -->
+
 ## <b> 📊 Weekly Development Breakdown </b>
 
 <!--START_SECTION:waka-->
@@ -28,6 +30,8 @@ TypeScript    4 mins          ▓░░░░░░░░░░░░░░░�
 ```
 
 <!--END_SECTION:waka-->
+
+[![adhilroshan's GitHub | Topics](https://stats.quine.sh/adhilroshan/topics-over-time?theme=dark)](https://quine.sh)
 
 ### :zap: <b> Recent Activity </b>
 
