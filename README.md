@@ -1,4 +1,4 @@
-
+[![adhilroshan's GitHub | Topics](https://stats.quine.sh/adhilroshan/topics-over-time?theme=dark)](https://quine.sh)
 <h1 align="center">Hi 👋, I'm <span class="name">Adhil Roshan</span></h1>
 <h2 align="center">A Passionate Developer from India</h3>
 
