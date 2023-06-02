@@ -21,7 +21,7 @@
 
 <!--START_SECTION:waka-->
 
-```text
+```txt
 TypeScript   4 hrs 24 mins   ████████▒░░░░░░░░░░░░░░░░   33.97 %
 Other        4 hrs 3 mins    ████████░░░░░░░░░░░░░░░░░   31.38 %
 JavaScript   1 hr 24 mins    ██▓░░░░░░░░░░░░░░░░░░░░░░   10.86 %
