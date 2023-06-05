@@ -31,7 +31,7 @@ Git Config   2 mins          ░░░░░░░░░░░░░░░░░
 
 <!--END_SECTION:waka-->
 
-[![adhilroshan's GitHub | Topics](https://stats.quine.sh/adhilroshan/topics-over-time?theme=dark)](https://quine.sh)
+<!-- [![adhilroshan's GitHub | Topics](https://stats.quine.sh/adhilroshan/topics-over-time?theme=dark)](https://quine.sh) -->
 
 ### :zap: <b> Recent Activity </b>
 
