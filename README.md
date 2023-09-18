@@ -36,8 +36,8 @@ JSON           17 mins         █░░░░░░░░░░░░░░░�
 ### :zap: <b> Recent Activity </b>
 
 <!--START_SECTION:activity-->
-1. ❗ Opened issue [#98](https://github.com/ZeroOctave/ZeroOctave.github.io/issues/98) in [ZeroOctave/ZeroOctave.github.io](https://github.com/ZeroOctave/ZeroOctave.github.io)
-2. ❗ Opened issue [#7441](https://github.com/EddieHubCommunity/support/issues/7441) in [EddieHubCommunity/support](https://github.com/EddieHubCommunity/support)
+1. 🎉 Merged PR [#1](https://github.com/adhilroshan/bensonthomask/pull/1) in [adhilroshan/bensonthomask](https://github.com/adhilroshan/bensonthomask)
+2. 💪 Opened PR [#1](https://github.com/adhilroshan/bensonthomask/pull/1) in [adhilroshan/bensonthomask](https://github.com/adhilroshan/bensonthomask)
 <!--END_SECTION:activity-->
 
 <br>
