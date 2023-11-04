@@ -32,8 +32,8 @@ No activity tracked
 ### :zap: <b> Recent Activity </b>
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/adhilroshan/bensonthomask/pull/1) in [adhilroshan/bensonthomask](https://github.com/adhilroshan/bensonthomask)
-2. 💪 Opened PR [#1](https://github.com/adhilroshan/bensonthomask/pull/1) in [adhilroshan/bensonthomask](https://github.com/adhilroshan/bensonthomask)
+1. 🎉 Merged PR [#1](https://github.com/SharoonRafeek/Ascend/pull/1) in [SharoonRafeek/Ascend](https://github.com/SharoonRafeek/Ascend)
+2. 💪 Opened PR [#1](https://github.com/SharoonRafeek/Ascend/pull/1) in [SharoonRafeek/Ascend](https://github.com/SharoonRafeek/Ascend)
 <!--END_SECTION:activity-->
 
 <br>
