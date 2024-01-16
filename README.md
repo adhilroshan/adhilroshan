@@ -22,9 +22,7 @@ Hey there, fellow earthlings! 🌍 It's your friendly neighborhood developer, Ad
 <!--START_SECTION:waka-->
 
 ```txt
-XML      18 mins         ████████████████░░░░░░░░░   63.60 %
-Python   10 mins         █████████░░░░░░░░░░░░░░░░   35.46 %
-Other    0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.94 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
