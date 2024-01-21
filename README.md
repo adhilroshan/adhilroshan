@@ -22,7 +22,8 @@ Hey there, fellow earthlings! 🌍 It's your friendly neighborhood developer, Ad
 <!--START_SECTION:waka-->
 
 ```txt
-No activity tracked
+YAML   8 mins          █████████████▒░░░░░░░░░░░   53.30 %
+Dart   7 mins          ███████████▓░░░░░░░░░░░░░   46.70 %
 ```
 
 <!--END_SECTION:waka-->
