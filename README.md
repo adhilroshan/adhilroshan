@@ -22,7 +22,9 @@ Hey there, fellow earthlings! 🌍 It's your friendly neighborhood developer, Ad
 <!--START_SECTION:waka-->
 
 ```txt
-No activity tracked
+TypeScript   35 mins         █████████████████████▓░░░   86.30 %
+Bash         5 mins          ███▒░░░░░░░░░░░░░░░░░░░░░   13.55 %
+CSS          0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.15 %
 ```
 
 <!--END_SECTION:waka-->
