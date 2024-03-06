@@ -22,8 +22,7 @@ Hey there, fellow earthlings! 🌍 It's your friendly neighborhood developer, Ad
 <!--START_SECTION:waka-->
 
 ```txt
-Svelte   27 mins         ██████████████████▓░░░░░░   74.61 %
-Other    9 mins          ██████▒░░░░░░░░░░░░░░░░░░   25.39 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
