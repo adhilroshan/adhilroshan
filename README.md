@@ -22,8 +22,7 @@ Hey there, fellow earthlings! 🌍 It's your friendly neighborhood developer, Ad
 <!--START_SECTION:waka-->
 
 ```txt
-TypeScript   4 mins          ████████████████████████▒   97.85 %
-SSH Config   0 secs          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.15 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
