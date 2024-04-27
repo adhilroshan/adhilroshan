@@ -22,7 +22,9 @@ Hey there, fellow earthlings! 🌍 It's your friendly neighborhood developer, Ad
 <!--START_SECTION:waka-->
 
 ```txt
-No activity tracked
+Python   2 hrs 4 mins    ████████████████████████▓   99.25 %
+Bash     0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.45 %
+Other    0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.30 %
 ```
 
 <!--END_SECTION:waka-->
