@@ -5,7 +5,6 @@ Hey there, fellow earthlings! 🌍 It's your friendly neighborhood developer, Ad
 ## <b> 🥅 2024 Goals </b>
 <i>
 
-- Learn Rust
 - Make projects in AI and Web3
 - Kubernetes integration and Microservice Projects
 </i>
