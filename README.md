@@ -20,8 +20,7 @@ Hey there, fellow earthlings! 🌍 It's your friendly neighborhood developer, Ad
 <!--START_SECTION:waka-->
 
 ```txt
-TypeScript   3 hrs 27 mins   ████████████████████████░   96.21 %
-Dart         8 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.79 %
+TypeScript   1 hr 22 mins    █████████████████████████   100.00 %
 ```
 
 <!--END_SECTION:waka-->
