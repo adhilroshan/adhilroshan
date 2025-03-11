@@ -2,12 +2,12 @@
 <h1 align="center">Hi 👋, I'm <span class="name">Adhil Roshan</span></h1>
 Hey there, fellow earthlings! 🌍 It's your friendly neighborhood developer, Adhil Roshan, straight outta India! 🇮🇳 Buckle up, 'cause we're about to embark on an epic coding adventure filled with laughter and innovation! 😄💻
 
-## <b> 🥅 2024 Goals </b>
+<!-- ## <b> 🥅 2024 Goals </b>
 <i>
 
 - Make projects in AI and Web3
 - Kubernetes integration and Microservice Projects
-</i>
+</i> -->
 <!-- <br /> -->
 
 <!-- >If you want something you've never had, you must be willing to do something you've never done. -->
