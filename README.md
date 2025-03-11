@@ -31,6 +31,10 @@ JSON         4 mins          ▒░░░░░░░░░░░░░░░░
 
 <!-- [![adhilroshan's GitHub | Topics](https://stats.quine.sh/adhilroshan/topics-over-time?theme=dark)](https://quine.sh) -->
 
+<!--START_SECTION:recentwaka-->
+<!--END_SECTION:recentwaka-->
+
+
 ### :zap: <b> Recent Activity </b>
 
 <!--START_SECTION:activity-->
