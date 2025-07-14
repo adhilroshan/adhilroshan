@@ -35,12 +35,6 @@ Python       15 mins         ▒░░░░░░░░░░░░░░░░
 <!--END_SECTION:recentwaka-->
 
 
-### :zap: <b> Recent Activity </b>
-
-<!--START_SECTION:activity-->
-1. 💪 Opened PR [#1](https://github.com/tinkerhub/hack-fake-app/pull/1) in [tinkerhub/hack-fake-app](https://github.com/tinkerhub/hack-fake-app)
-2. 🎉 Merged PR [#1](https://github.com/SharoonRafeek/Ascend/pull/1) in [SharoonRafeek/Ascend](https://github.com/SharoonRafeek/Ascend)
-<!--END_SECTION:activity-->
 
 <br>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=adhilroshan&label=Profile%20views&color=1da1f2&style=for-the-badge" alt="adhilroshan" /> </p>
