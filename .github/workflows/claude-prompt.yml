@@ -10,26 +10,8 @@ jobs:
   run-claude:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Run Claude Code with OAuth token
+        uses: anthropics/claude-code-base-action@beta
         with:
-          node-version: '18'
-          
-      - name: Install Claude Code
-        run: |
-          npm install -g @anthropic-ai/claude-code
-          
-      - name: Configure Claude OAuth
-        env:
-          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-        run: |
-          # Create Claude config directory
-          mkdir -p ~/.claude
-          
-          # Set up OAuth token configuration
-          echo '{"oauth_token": "'$CLAUDE_CODE_OAUTH_TOKEN'"}' > ~/.claude/oauth_token.json
-          
-      - name: Run Claude Code Prompt
-        run: |
-          # Run Claude with the "hello" prompt
-          claude --print "hello" --model sonnet
+          prompt: "hello"
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
