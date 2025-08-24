@@ -4,6 +4,7 @@ on:
   schedule:
     # Runs at 5:30am, 10:30am, 3:30pm, 8:30pm IST (0:00, 5:00, 10:00, 15:00 UTC)
     - cron: '0 0,5,10,15 * * *'
+  workflow_dispatch:  # Allows manual triggering of the workflow
 
 jobs:
   run-claude:
