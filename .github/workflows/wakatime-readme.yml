@@ -5,9 +5,16 @@ on:
     - cron: '0 0 * * *' # Runs at midnight UTC
   workflow_dispatch: # Allows manual triggering
 
+concurrency:
+  group: readme-update
+  cancel-in-progress: false  # Wait for previous run to complete
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # For pushing README updates
+    timeout-minutes: 15
 
     steps:
       - name: Checkout Repository
@@ -20,7 +27,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install requests google-generativeai
+          pip install -r requirements.txt
 
       - name: Fetch WakaTime Data
         env:

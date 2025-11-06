@@ -3,13 +3,20 @@ name: Waka Readme
 on:
   workflow_dispatch:
   schedule:
-    # Runs at every 12AM UTC
-    - cron: "* * * * *"
+    # Runs every 6 hours (at 00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: "0 */6 * * *"
+
+concurrency:
+  group: readme-update
+  cancel-in-progress: false  # Wait for previous run to complete
 
 jobs:
   update-readme:
     name: Update this repo's README
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # For pushing README updates
+    timeout-minutes: 10
     steps:
       - uses: athul/waka-readme@master
         with:

@@ -9,9 +9,12 @@ on:
 jobs:
   run-claude:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    timeout-minutes: 10
     steps:
-      - name: Run Claude Code with OAuth token
+      - name: Run Claude Code Health Check
         uses: anthropics/claude-code-base-action@beta
         with:
-          prompt: "hello"
+          prompt: "Perform a health check on the repository. Verify all workflows are properly configured."
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN_SCHEDULER }}

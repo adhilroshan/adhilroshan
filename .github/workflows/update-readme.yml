@@ -5,13 +5,20 @@ on:
     - cron: '*/30 * * * *'
   workflow_dispatch:
 
+concurrency:
+  group: readme-update
+  cancel-in-progress: false  # Wait for previous run to complete
+
 jobs:
   build:
     runs-on: ubuntu-latest
     name: Update this repo's README with recent activity
+    permissions:
+      contents: write  # For pushing README updates
+    timeout-minutes: 10
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
