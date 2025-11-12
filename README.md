@@ -20,7 +20,8 @@ Hey there, fellow earthlings! 🌍 It's your friendly neighborhood developer, Ad
 <!--START_SECTION:waka-->
 
 ```txt
-No activity tracked
+JSON         0 secs          ███████████████████▒░░░░░   76.84 %
+JavaScript   0 secs          █████▓░░░░░░░░░░░░░░░░░░░   23.16 %
 ```
 
 <!--END_SECTION:waka-->
