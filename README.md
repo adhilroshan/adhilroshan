@@ -1,8 +1,121 @@
+<div align="center">
 
-<h1 align="center">Hi 👋, I'm <span class="name">Adhil Roshan</span></h1>
-<p align="center">Developer from India building mobile and web products — mostly Flutter/Android apps and AI-assisted development workflows.</p>
+# Hi there, I'm <a href="https://adhilroshan.me">Adhil Roshan</a> 👋
 
-## <b> ⌨️ Coding activity </b>
+[![Website](https://img.shields.io/badge/Website-adhilroshan.me-black?style=for-the-badge&logo=google-chrome&logoColor=white)](https://adhilroshan.me)
+[![Twitter](https://img.shields.io/badge/Twitter-@adhilroshann-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/adhilroshann)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-adhilroshan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adhilroshan/)
+[![Telegram](https://img.shields.io/badge/Telegram-@adhil__roshan-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/adhil_roshan)
+
+<br/>
+
+> *"The best way to predict the future is to invent it."*
+
+<p align="center">
+  <b>Autonomous AI & Agent Systems Architect</b> &nbsp;•&nbsp; 
+  <b>Systems & Native Hacker (Rust / Tauri)</b> &nbsp;•&nbsp; 
+  <b>Full-Stack & Flutter Engineer</b>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=adhilroshan&label=Profile%20Views&color=007acc&style=flat-square" alt="Profile Views" />
+</p>
+
+</div>
+
+---
+
+### 🚀 What I Build & Research
+
+- 🤖 **Agentic Infrastructure & Autonomous Tooling:** Building the control layer and nervous system for AI agents — from real-browser automation via MCP & Chrome extensions ([`browserforce`](https://github.com/adhilroshan/browserforce)) to multi-agent task orchestrators ([`orch`](https://github.com/adhilroshan/orch)) and parallel execution harnesses ([`ccpm`](https://github.com/adhilroshan/ccpm)).
+- ⚡ **High-Performance Native & Dev Tools:** Obsessed with speed, minimal footprints, and developer ergonomics. Author of [`terax-ai`](https://github.com/adhilroshan/terax-ai), a sub-10MB AI-native terminal emulator crafted with Rust, Tauri 2, and React 19.
+- 🧠 **Deep Learning & Adaptive Architectures:** Experimenting with cutting-edge architectures like Nested Learning ([`hope-nl`](https://github.com/adhilroshan/hope-nl) — LLMs that rewrite their own weights dynamically), fine-tuning foundation models, and Reinforcement Learning.
+- 📱 **Mobile & Full-Stack Products:** Creating delightful, fluid mobile applications with Flutter/Dart ([`flow`](https://github.com/adhilroshan/flow)) and production-grade full-stack web platforms.
+
+---
+
+### 🛠️ Featured Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🤖 <a href="https://github.com/adhilroshan/browserforce">BrowserForce</a></h3>
+      <p><b>Parallel AI Agents in your real Chrome browser.</b> Full Playwright API support, zero credential leakage, session inheritance, accessibility tree snapshots, and parallel tab swarm extraction for Claude, OpenClaw, and any MCP agent.</p>
+      <p><code>TypeScript</code> · <code>Chrome MV3</code> · <code>MCP</code> · <code>Playwright</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚡ <a href="https://github.com/adhilroshan/terax-ai">Terax AI</a></h3>
+      <p><b>Lightweight (7MB) AI-native Terminal Emulator (ADE).</b> Native PTY backend, WebGL-accelerated multi-tab terminal, integrated code editor with AI diffs, and local/cloud BYOK model orchestration.</p>
+      <p><code>Rust</code> · <code>Tauri 2</code> · <code>React 19</code> · <code>TypeScript</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎼 <a href="https://github.com/adhilroshan/orch">orch</a></h3>
+      <p><b>Multi-agent task orchestration framework.</b> Decomposes complex projects into atomic tasks, isolates parallel execution using Git Worktrees, and enforces file ownership guardrails to prevent agent collisions.</p>
+      <p><code>Node.js</code> · <code>Git Worktrees</code> · <code>Agent Tooling</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧠 <a href="https://github.com/adhilroshan/hope-nl">hope-nl</a></h3>
+      <p><b>An LLM that rewrites its own weights as it reads.</b> PyTorch implementation of the Nested Learning paper, exploring self-modifying dynamic weights and memory mechanisms.</p>
+      <p><code>Python</code> · <code>PyTorch</code> · <code>Deep Learning</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📊 <a href="https://github.com/adhilroshan/flow">Flow</a></h3>
+      <p><b>Clean, offline-first personal finance tracker.</b> Built with love and Flutter, featuring intuitive budget management, fluid animations, and high privacy standards.</p>
+      <p><code>Flutter</code> · <code>Dart</code> · <code>Mobile (iOS & Android)</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚙️ <a href="https://github.com/adhilroshan/ccpm">CCPM & Spec Workflow</a></h3>
+      <p><b>Spec-driven project management & parallel agent execution.</b> Orchestrating Claude Code using Git worktrees, requirements-to-tasks pipelines, and GitHub Issues integration.</p>
+      <p><code>Shell</code> · <code>TypeScript</code> · <code>Claude Code</code></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 💻 Tech Arsenal
+
+<p align="left">
+  <b>Languages:</b><br/>
+  <img src="https://img.shields.io/badge/Rust-black?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Shell" />
+</p>
+
+<p align="left">
+  <b>AI, Agents & Frameworks:</b><br/>
+  <img src="https://img.shields.io/badge/MCP-Model_Context_Protocol-412991?style=flat-square&logo=anthropic&logoColor=white" alt="MCP" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/Tauri-FFC131?style=flat-square&logo=tauri&logoColor=black" alt="Tauri" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind" />
+</p>
+
+<p align="left">
+  <b>Data & Cloud Infrastructure:</b><br/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
+</p>
+
+---
+
+### ⌨️ Coding Activity & Streak
 
 <!--START_SECTION:worklog-->
 🔥 Current streak: 11 days · Longest: 11 days
@@ -12,39 +125,19 @@
 ![activity](assets/activity.svg)
 <!--END_SECTION:worklog-->
 
+---
 
-<br>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=adhilroshan&label=Profile%20views&color=1da1f2&style=for-the-badge" alt="adhilroshan" /> </p>
-<p align="left">
-<!-- TELEGRAM -->
-<a href="https://t.me/adhil_roshan" target="blank"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="adhilroshan" /></a>
-<!-- TWITTER -->
-<a href="https://twitter.com/adhilroshann" target="blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="adhilroshann" /></a>
-<!-- LINKEDIN -->
-<a href="https://www.linkedin.com/in/adhilroshan/" target="blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="adhilroshan" /></a>
-<!-- INSTAGRAM -->
-<a href="https://instagram.com/adhilroshann" target="blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="adhilroshann" /></a>
-<!-- DISCORD -->
-<a href="https://discord.com/channels/AdhilRoshan#6661" target="blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="adhilroshan" /></a>
-<!-- MEDIUM -->
-<a href="https://medium.com/@adhilroshan" target="blank"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="adhilroshan" /></a>
-<!-- DEV.TO -->
-<a href="https://dev.to/adhilroshan" target="blank"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="adhilroshan" /></a>
+<div align="center">
 
+### 📈 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=adhilroshan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Adhil's GitHub stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adhilroshan&layout=compact&theme=tokyonight&hide_border=true&count_private=true" alt="Top Languages" height="165" />
 </p>
 
+<br/>
 
-### Tech I reach for
+<sub>Crafted with passion for autonomous agents, high performance, and great software.</sub>
 
-<p align="left"><a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="flutter"/> </a>
-<!-- DART -->
-<a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="dart" /> </a>
-<!-- RUST -->
-<a href="https://www.rust-lang.org/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="rust"/> </a>
-<!-- PYTHON -->
-<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="python" /> </a>
-<!-- JAVASCRIPT -->
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="javascript"/> </a>
-<!-- NODEJS -->
-<a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="nodejs"/> </a>
-</p>
+</div>
