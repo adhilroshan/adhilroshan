@@ -27,50 +27,51 @@
 
 ### 🚀 What I Build & Research
 
-- 🤖 **Agentic Infrastructure & Autonomous Tooling (TS/JS):** Building the control layer and nervous system for AI agents — from real-browser automation via MCP & Chrome extensions ([`browserforce`](https://github.com/adhilroshan/browserforce)) to multi-agent task orchestrators ([`orch`](https://github.com/adhilroshan/orch)) and parallel execution harnesses ([`ccpm`](https://github.com/adhilroshan/ccpm)).
-- 🧠 **Machine Learning, LLMs & Internals (Python):** Experimenting with bleeding-edge architectures like Nested Learning ([`hope-nl`](https://github.com/adhilroshan/hope-nl) — LLMs that rewrite their own weights dynamically), fine-tuning foundation models, and privacy-first local activity loggers ([`onloq`](https://github.com/adhilroshan/onloq)).
-- ⚡ **Full-Stack Web & Developer Ergonomics (TypeScript / Node.js):** Architecting end-to-end web products, contract management platforms ([`kontracto`](https://github.com/adhilroshan/kontracto)), workflow automation, and browser extensions ([`excalihub`](https://github.com/adhilroshan/excalihub)).
-- 🎮 **Tinkering & Fun (Flutter & Rust):** Building slick personal finance apps ([`flow`](https://github.com/adhilroshan/flow)) and ultra-lightweight terminal emulators ([`terax-ai`](https://github.com/adhilroshan/terax-ai)) just for the joy of crafting great software.
+- 🤖 **Agentic Infrastructure & Orchestration (JS/TS):** Designing frameworks that coordinate AI agents, parallel workflows, and execution environments ([`orch`](https://github.com/adhilroshan/orch)).
+- 🧠 **Machine Learning, LLM Internals & Research (Python):** Exploring non-standard architectures like Nested Learning ([`hope-nl`](https://github.com/adhilroshan/hope-nl) — LLMs that rewrite their own weights dynamically), fine-tuning models, and Reinforcement Learning.
+- 🔒 **Local-First & Privacy-Focused Tools (Python & TS):** Building software that respects privacy and runs on-device, like [`onloq`](https://github.com/adhilroshan/onloq) (local activity & code logger with Ollama AI summarization) and [`resumix`](https://github.com/adhilroshan/resumix).
+- 🛠️ **Developer Ergonomics & Browser Tools (TS/JS):** Creating utilities and extensions that streamline daily workflows, such as [`gitdesk`](https://github.com/adhilroshan/gitdesk) and [`excalihub`](https://github.com/adhilroshan/excalihub).
+- 🎮 **Tinkering for Fun:** Experimenting with mobile apps in Flutter/Dart and systems hacking in Rust when exploring new ideas.
 
 ---
 
-### 🛠️ Featured Projects
+### 🛠️ Featured Original Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🤖 <a href="https://github.com/adhilroshan/browserforce">BrowserForce</a></h3>
-      <p><b>Parallel AI Agents in your real Chrome browser.</b> Full Playwright API support, zero credential leakage, session inheritance, accessibility tree snapshots, and parallel tab swarm extraction for Claude, OpenClaw, and any MCP agent.</p>
-      <p><code>TypeScript</code> · <code>Chrome MV3</code> · <code>MCP</code> · <code>Playwright</code></p>
+      <h3>🎼 <a href="https://github.com/adhilroshan/orch">orch</a></h3>
+      <p><b>Multi-agent task orchestration framework.</b> Coordinates multi-agent workflows, decomposes complex development cycles into structured tasks, and manages concurrent agent execution.</p>
+      <p><code>JavaScript</code> · <code>Node.js</code> · <code>AI Agents</code> · <code>Workflow Automation</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3>🎼 <a href="https://github.com/adhilroshan/orch">orch</a></h3>
-      <p><b>Multi-agent task orchestration framework.</b> Decomposes complex projects into atomic tasks, isolates parallel execution using Git Worktrees, and enforces file ownership guardrails to prevent agent collisions.</p>
-      <p><code>JavaScript</code> · <code>Node.js</code> · <code>Git Worktrees</code> · <code>Agent Tooling</code></p>
+      <h3>🔒 <a href="https://github.com/adhilroshan/onloq">Onloq</a></h3>
+      <p><b>Privacy-first local activity & code logger with AI summarization.</b> Runs 100% on-device. Tracks application usage, monitors file diffs in real-time, and uses local Ollama models to generate insightful daily developer journals.</p>
+      <p><code>Python</code> · <code>Ollama</code> · <code>SQLite</code> · <code>Typer CLI</code></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>🧠 <a href="https://github.com/adhilroshan/hope-nl">hope-nl</a></h3>
-      <p><b>An LLM that rewrites its own weights as it reads.</b> PyTorch implementation of the Nested Learning paper, exploring self-modifying dynamic weights and memory mechanisms.</p>
-      <p><code>Python</code> · <code>PyTorch</code> · <code>Deep Learning</code></p>
+      <p><b>An LLM that rewrites its own weights as it reads.</b> PyTorch implementation of the Nested Learning paper, exploring self-modifying weights and dynamic memory retention during inference.</p>
+      <p><code>Python</code> · <code>PyTorch</code> · <code>Deep Learning</code> · <code>LLM Research</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3>⚙️ <a href="https://github.com/adhilroshan/ccpm">CCPM & Spec Workflow</a></h3>
-      <p><b>Spec-driven project management & parallel agent execution.</b> Orchestrating Claude Code using Git worktrees, requirements-to-tasks pipelines, and GitHub Issues integration.</p>
-      <p><code>TypeScript</code> · <code>Shell</code> · <code>Claude Code</code></p>
+      <h3>🛡️ <a href="https://github.com/adhilroshan/gitdesk">GitDesk</a></h3>
+      <p><b>AI-native developer security partner.</b> Proactive local vulnerability scanning, secret detection before commit/push, first-class Git Worktrees management, and agentic workflows.</p>
+      <p><code>Python</code> · <code>TypeScript</code> · <code>DevTools</code> · <code>Security</code></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>⚡ <a href="https://github.com/adhilroshan/terax-ai">Terax AI</a> <i>(Fun / Native)</i></h3>
-      <p><b>Lightweight (7MB) AI-native Terminal Emulator (ADE).</b> Native PTY backend, WebGL-accelerated multi-tab terminal, integrated code editor with AI diffs, and local/cloud BYOK model orchestration.</p>
-      <p><code>Rust</code> · <code>Tauri 2</code> · <code>React 19</code> · <code>TypeScript</code></p>
+      <h3>🎨 <a href="https://github.com/adhilroshan/excalihub">ExcaliHub</a></h3>
+      <p><b>Chrome extension connecting Excalidraw to GitHub.</b> Saves drawings directly to private GitHub repositories using OAuth Device Flow, featuring an embedded sidebar to browse and load drawings.</p>
+      <p><code>JavaScript</code> · <code>Chrome Extension (MV3)</code> · <code>GitHub API</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3>📊 <a href="https://github.com/adhilroshan/flow">Flow</a> <i>(Fun / Mobile)</i></h3>
-      <p><b>Clean, offline-first personal finance tracker.</b> Built with love and Flutter, featuring intuitive budget management, fluid animations, and high privacy standards.</p>
-      <p><code>Flutter</code> · <code>Dart</code> · <code>Mobile</code></p>
+      <h3>📄 <a href="https://github.com/adhilroshan/resumix">Resumix</a></h3>
+      <p><b>Privacy-focused AI resume analysis & job matcher.</b> Evaluates resumes against job descriptions with in-browser processing, skills gap analysis, match scoring, and progress tracking.</p>
+      <p><code>TypeScript</code> · <code>Next.js 16</code> · <code>React 19</code> · <code>Tailwind CSS v4</code></p>
     </td>
   </tr>
 </table>
@@ -93,14 +94,14 @@
 
 <p align="left">
   <b>AI, Agents & Tooling:</b><br/>
-  <img src="https://img.shields.io/badge/MCP-Model_Context_Protocol-412991?style=flat-square&logo=anthropic&logoColor=white" alt="MCP" />
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/Claude_Code-D97706?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/Ollama-black?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
+  <img src="https://img.shields.io/badge/MCP-Model_Context_Protocol-412991?style=flat-square&logo=anthropic&logoColor=white" alt="MCP" />
 </p>
 
 <p align="left">
-  <b>Also Explored & Built For Fun:</b><br/>
+  <b>Explored & Built For Fun:</b><br/>
   <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
   <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart" />
   <img src="https://img.shields.io/badge/Rust-black?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
@@ -113,6 +114,7 @@
   <b>Database & DevOps:</b><br/>
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
