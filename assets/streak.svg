@@ -1,0 +1,14 @@
+<svg width="1012" height="150" viewBox="0 0 1012 150" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+<rect x="1" y="1" width="1010" height="148" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<text x="30" y="92" font-size="56" font-weight="bold" fill="#f66a0a">11</text>
+<text x="30" y="120" font-size="12" letter-spacing="2" fill="#57606a">DAY STREAK</text>
+<line x1="265" y1="25" x2="265" y2="125" stroke="#d0d7de"/>
+<text x="295" y="92" font-size="56" font-weight="bold" fill="#1f2328">11</text>
+<text x="295" y="120" font-size="12" letter-spacing="2" fill="#57606a">LONGEST (DAYS)</text>
+<line x1="520" y1="25" x2="520" y2="125" stroke="#d0d7de"/>
+<text x="550" y="92" font-size="56" font-weight="bold" fill="#1f2328">68</text>
+<text x="550" y="120" font-size="12" letter-spacing="2" fill="#57606a">SESSIONS</text>
+<line x1="775" y1="25" x2="775" y2="125" stroke="#d0d7de"/>
+<text x="805" y="92" font-size="56" font-weight="bold" fill="#1f2328">11</text>
+<text x="805" y="120" font-size="12" letter-spacing="2" fill="#57606a">PROJECTS</text>
+</svg>
