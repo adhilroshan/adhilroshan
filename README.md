@@ -1,11 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,30&height=220&section=header&text=Adhil%20Roshan&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Autonomous%20AI%20%7C%20TypeScript%20%26%20Python%20Engineer&descFontSize=18&descAlignY=60&descAlign=50" width="100%" />
-
-<br/>
+# ⚡ Hi there, I'm <a href="https://adhilroshan.me">Adhil Roshan</a>
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&lines=TypeScript+%26+Python+Engineer;Autonomous+AI+%26+Multi-Agent+Orchestration;Local-First+%26+Privacy-Focused+Software;Building+with+Flutter+%26+Rust+for+fun" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=TypeScript+%26+Python+Engineer;Autonomous+AI+%26+Multi-Agent+Orchestration;Local-First+%26+Privacy-Focused+Software;Building+with+Rust+%26+Flutter+for+fun" alt="Typing SVG" />
 </a>
 
 <p align="center">
@@ -17,10 +15,6 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=adhilroshan&label=Profile%20Views&color=007acc&style=flat-square" alt="Profile Views" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=adhilroshan&theme=tokyonight&no-frame=true&column=6&margin-w=10" alt="GitHub Trophies" />
 </p>
 
 </div>
@@ -123,23 +117,6 @@
 
 <div align="center">
 
-### 📈 GitHub Stats & Dynamics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=adhilroshan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Adhil's GitHub stats" height="165" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=adhilroshan&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adhilroshan&layout=compact&theme=tokyonight&hide_border=true&count_private=true" alt="Top Languages" height="165" />
-</p>
-
-<br/>
-
 <sub>Crafted with passion for autonomous agents, high performance, and great software.</sub>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,30&height=120&section=footer" width="100%" />
 
 </div>
