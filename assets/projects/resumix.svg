@@ -1,12 +1,10 @@
-<svg width="470" height="168" viewBox="0 0 470 168" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="720" height="135" viewBox="0 0 720 135" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Gradient: Subtle vertical falloff for tactile depth -->
-    <linearGradient id="card_bg_resumix" x1="0%" y1="0%" x2="0%" y2="100%">
+    <linearGradient id="bg_resumix" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#11161d" />
       <stop offset="100%" stop-color="#0a0d12" />
     </linearGradient>
-    <!-- Top Bezel Highlight: Simulates directional overhead lighting -->
-    <linearGradient id="card_bezel_resumix" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="bezel_resumix" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.05" />
       <stop offset="30%" stop-color="#ffffff" stop-opacity="0.15" />
       <stop offset="70%" stop-color="#ffffff" stop-opacity="0.08" />
@@ -14,49 +12,41 @@
     </linearGradient>
   </defs>
 
-  <!-- Card Base with crisp 1px neutral stroke -->
-  <rect x="1" y="1" width="468" height="166" rx="10" fill="url(#card_bg_resumix)" stroke="#262c36" stroke-width="1"/>
-  
-  <!-- Top Specular Highlight Line (Physical polish) -->
-  <path d="M10 1H460" stroke="url(#card_bezel_resumix)" stroke-width="1" stroke-linecap="round" />
+  <!-- Card Base Frame -->
+  <rect x="1" y="1" width="718" height="133" rx="10" fill="url(#bg_resumix)" stroke="#262c36" stroke-width="1"/>
+  <path d="M10 1H710" stroke="url(#bezel_resumix)" stroke-width="1" stroke-linecap="round" />
 
-  <!-- Header: Icon, Title & Interactive Indicator -->
-  <g transform="translate(22, 20)">
-    <!-- Icon Container with subtle inset and stroke -->
-    <rect x="0" y="0" width="32" height="32" rx="7" fill="#161b22" stroke="#2d333b" stroke-width="1"/>
-    <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z" fill="#c9d1d9" transform="translate(4, 4) scale(1)"/>
-    
-    <!-- Title -->
-    <text x="42" y="21" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, sans-serif" font-size="17" font-weight="600" fill="#f0f6fc" letter-spacing="-0.2">resumix</text>
-    
-    <!-- Subtle External Link Chevron Indicator -->
-    <path d="M88 12L93 7M93 7H89M93 7V11" stroke="#484f58" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- HEADER: Icon, Title & Badge -->
+  <g transform="translate(24, 18)">
+    <rect x="0" y="0" width="30" height="30" rx="6" fill="#161b22" stroke="#2d333b" stroke-width="1"/>
+    <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z" fill="#c9d1d9" transform="translate(3, 3) scale(1)"/>
+    <text x="40" y="21" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, sans-serif" font-size="18" font-weight="600" fill="#f0f6fc" letter-spacing="-0.2">resumix</text>
+    <path d="123 13L128 8M128 8H124M128 8V12" stroke="#484f58" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
-  <!-- Badge Pill -->
-  <g transform="translate(340.4, 23)">
-    <rect x="0" y="0" width="107.6" height="22" rx="11" fill="#161b22" stroke="#2d333b" stroke-width="1"/>
-    <text x="53.8" y="14.5" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="10.5" font-weight="500" fill="#8b949e" text-anchor="middle">Full-Stack Web</text>
+  <!-- Category Badge -->
+  <g transform="translate(580.8, 22)">
+    <rect x="0" y="0" width="115.2" height="22" rx="11" fill="#161b22" stroke="#2d333b" stroke-width="1"/>
+    <text x="57.6" y="15" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="11" font-weight="500" fill="#8b949e" text-anchor="middle">Full-Stack Web</text>
   </g>
 
-  <!-- Description with optical tracking and leading -->
-  <text x="24" y="80" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#8b949e" letter-spacing="-0.1">Privacy-first AI resume analysis and job description matcher</text>
-  <text x="24" y="99" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#8b949e" letter-spacing="-0.1">with client-side processing, gap scoring, and interview insights.</text>
+  <!-- Description -->
+  <text x="24" y="72" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#8b949e" letter-spacing="-0.1">Privacy-first AI resume analysis and job description matcher with client-side processing, gap scoring, and interview insights.</text>
 
   <!-- Tags -->
-  <g transform="translate(24, 125)">
+  <g transform="translate(24, 94)">
     <g transform="translate(0, 0)">
-      <rect width="89.0" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
-      <text x="44.5" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">TypeScript</text>
-    </g><g transform="translate(96.0, 0)">
-      <rect width="89.0" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
-      <text x="44.5" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">Next.js 16</text>
-    </g><g transform="translate(192.0, 0)">
-      <rect width="74.8" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
-      <text x="37.4" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">React 19</text>
-    </g><g transform="translate(273.8, 0)">
-      <rect width="74.8" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
-      <text x="37.4" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">Tailwind</text>
+      <rect width="94.0" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
+      <text x="47.0" y="15" font-family="ui-monospace, monospace" font-size="11" font-weight="500" fill="#7d8590" text-anchor="middle">TypeScript</text>
+    </g><g transform="translate(102.0, 0)">
+      <rect width="94.0" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
+      <text x="47.0" y="15" font-family="ui-monospace, monospace" font-size="11" font-weight="500" fill="#7d8590" text-anchor="middle">Next.js 16</text>
+    </g><g transform="translate(204.0, 0)">
+      <rect width="79.2" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
+      <text x="39.6" y="15" font-family="ui-monospace, monospace" font-size="11" font-weight="500" fill="#7d8590" text-anchor="middle">React 19</text>
+    </g><g transform="translate(291.2, 0)">
+      <rect width="79.2" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
+      <text x="39.6" y="15" font-family="ui-monospace, monospace" font-size="11" font-weight="500" fill="#7d8590" text-anchor="middle">Tailwind</text>
     </g>
   </g>
 </svg>

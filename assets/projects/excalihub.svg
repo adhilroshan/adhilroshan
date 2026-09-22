@@ -1,12 +1,10 @@
-<svg width="470" height="168" viewBox="0 0 470 168" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="720" height="135" viewBox="0 0 720 135" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Gradient: Subtle vertical falloff for tactile depth -->
-    <linearGradient id="card_bg_excalihub" x1="0%" y1="0%" x2="0%" y2="100%">
+    <linearGradient id="bg_excalihub" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#11161d" />
       <stop offset="100%" stop-color="#0a0d12" />
     </linearGradient>
-    <!-- Top Bezel Highlight: Simulates directional overhead lighting -->
-    <linearGradient id="card_bezel_excalihub" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="bezel_excalihub" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.05" />
       <stop offset="30%" stop-color="#ffffff" stop-opacity="0.15" />
       <stop offset="70%" stop-color="#ffffff" stop-opacity="0.08" />
@@ -14,46 +12,38 @@
     </linearGradient>
   </defs>
 
-  <!-- Card Base with crisp 1px neutral stroke -->
-  <rect x="1" y="1" width="468" height="166" rx="10" fill="url(#card_bg_excalihub)" stroke="#262c36" stroke-width="1"/>
-  
-  <!-- Top Specular Highlight Line (Physical polish) -->
-  <path d="M10 1H460" stroke="url(#card_bezel_excalihub)" stroke-width="1" stroke-linecap="round" />
+  <!-- Card Base Frame -->
+  <rect x="1" y="1" width="718" height="133" rx="10" fill="url(#bg_excalihub)" stroke="#262c36" stroke-width="1"/>
+  <path d="M10 1H710" stroke="url(#bezel_excalihub)" stroke-width="1" stroke-linecap="round" />
 
-  <!-- Header: Icon, Title & Interactive Indicator -->
-  <g transform="translate(22, 20)">
-    <!-- Icon Container with subtle inset and stroke -->
-    <rect x="0" y="0" width="32" height="32" rx="7" fill="#161b22" stroke="#2d333b" stroke-width="1"/>
-    <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z" fill="#c9d1d9" transform="translate(4, 4) scale(1)"/>
-    
-    <!-- Title -->
-    <text x="42" y="21" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, sans-serif" font-size="17" font-weight="600" fill="#f0f6fc" letter-spacing="-0.2">excalihub</text>
-    
-    <!-- Subtle External Link Chevron Indicator -->
-    <path d="M88 12L93 7M93 7H89M93 7V11" stroke="#484f58" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- HEADER: Icon, Title & Badge -->
+  <g transform="translate(24, 18)">
+    <rect x="0" y="0" width="30" height="30" rx="6" fill="#161b22" stroke="#2d333b" stroke-width="1"/>
+    <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z" fill="#c9d1d9" transform="translate(3, 3) scale(1)"/>
+    <text x="40" y="21" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, sans-serif" font-size="18" font-weight="600" fill="#f0f6fc" letter-spacing="-0.2">excalihub</text>
+    <path d="145 13L150 8M150 8H146M150 8V12" stroke="#484f58" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
-  <!-- Badge Pill -->
-  <g transform="translate(321.2, 23)">
-    <rect x="0" y="0" width="126.8" height="22" rx="11" fill="#161b22" stroke="#2d333b" stroke-width="1"/>
-    <text x="63.4" y="14.5" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="10.5" font-weight="500" fill="#8b949e" text-anchor="middle">Browser Extension</text>
+  <!-- Category Badge -->
+  <g transform="translate(560.4, 22)">
+    <rect x="0" y="0" width="135.6" height="22" rx="11" fill="#161b22" stroke="#2d333b" stroke-width="1"/>
+    <text x="67.8" y="15" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="11" font-weight="500" fill="#8b949e" text-anchor="middle">Browser Extension</text>
   </g>
 
-  <!-- Description with optical tracking and leading -->
-  <text x="24" y="80" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#8b949e" letter-spacing="-0.1">Chrome extension (MV3) syncing Excalidraw diagrams directly</text>
-  <text x="24" y="99" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#8b949e" letter-spacing="-0.1">to private GitHub repositories with an embedded sidebar drawer.</text>
+  <!-- Description -->
+  <text x="24" y="72" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#8b949e" letter-spacing="-0.1">Chrome extension (MV3) syncing Excalidraw diagrams directly to private GitHub repositories with an embedded sidebar drawer.</text>
 
   <!-- Tags -->
-  <g transform="translate(24, 125)">
+  <g transform="translate(24, 94)">
     <g transform="translate(0, 0)">
-      <rect width="89.0" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
-      <text x="44.5" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">JavaScript</text>
-    </g><g transform="translate(96.0, 0)">
-      <rect width="89.0" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
-      <text x="44.5" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">Chrome MV3</text>
-    </g><g transform="translate(192.0, 0)">
-      <rect width="89.0" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
-      <text x="44.5" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">GitHub API</text>
+      <rect width="94.0" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
+      <text x="47.0" y="15" font-family="ui-monospace, monospace" font-size="11" font-weight="500" fill="#7d8590" text-anchor="middle">JavaScript</text>
+    </g><g transform="translate(102.0, 0)">
+      <rect width="94.0" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
+      <text x="47.0" y="15" font-family="ui-monospace, monospace" font-size="11" font-weight="500" fill="#7d8590" text-anchor="middle">Chrome MV3</text>
+    </g><g transform="translate(204.0, 0)">
+      <rect width="94.0" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
+      <text x="47.0" y="15" font-family="ui-monospace, monospace" font-size="11" font-weight="500" fill="#7d8590" text-anchor="middle">GitHub API</text>
     </g>
   </g>
 </svg>
