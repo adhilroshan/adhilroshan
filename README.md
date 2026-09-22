@@ -30,44 +30,18 @@
 
 ### Featured Projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/adhilroshan/orch">orch</a></h3>
-      <p><b>Multi-agent task orchestration framework.</b> Coordinates multi-agent workflows, decomposes complex development cycles into structured tasks, and manages concurrent agent execution.</p>
-      <p><code>JavaScript</code> · <code>Node.js</code> · <code>AI Agents</code> · <code>Workflow Automation</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/adhilroshan/onloq">Onloq</a></h3>
-      <p><b>Privacy-first local activity & code logger with AI summarization.</b> Runs 100% on-device. Tracks application usage, monitors file diffs in real-time, and uses local Ollama models to generate insightful daily developer journals.</p>
-      <p><code>Python</code> · <code>Ollama</code> · <code>SQLite</code> · <code>Typer CLI</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/adhilroshan/hope-nl">hope-nl</a></h3>
-      <p><b>An LLM that rewrites its own weights as it reads.</b> PyTorch implementation of the Nested Learning paper, exploring self-modifying weights and dynamic memory retention during inference.</p>
-      <p><code>Python</code> · <code>PyTorch</code> · <code>Deep Learning</code> · <code>LLM Research</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/adhilroshan/gitdesk">GitDesk</a></h3>
-      <p><b>AI-native developer security partner.</b> Proactive local vulnerability scanning, secret detection before commit/push, first-class Git Worktrees management, and agentic workflows.</p>
-      <p><code>Python</code> · <code>TypeScript</code> · <code>DevTools</code> · <code>Security</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/adhilroshan/excalihub">ExcaliHub</a></h3>
-      <p><b>Chrome extension connecting Excalidraw to GitHub.</b> Saves drawings directly to private GitHub repositories using OAuth Device Flow, featuring an embedded sidebar to browse and load drawings.</p>
-      <p><code>JavaScript</code> · <code>Chrome Extension (MV3)</code> · <code>GitHub API</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/adhilroshan/resumix">Resumix</a></h3>
-      <p><b>Privacy-focused AI resume analysis & job matcher.</b> Evaluates resumes against job descriptions with in-browser processing, skills gap analysis, match scoring, and progress tracking.</p>
-      <p><code>TypeScript</code> · <code>Next.js 16</code> · <code>React 19</code> · <code>Tailwind CSS v4</code></p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/adhilroshan/orch"><img src="assets/projects/orch.svg" alt="orch" width="49%" /></a>
+  <a href="https://github.com/adhilroshan/onloq"><img src="assets/projects/onloq.svg" alt="onloq" width="49%" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/adhilroshan/hope-nl"><img src="assets/projects/hope-nl.svg" alt="hope-nl" width="49%" /></a>
+  <a href="https://github.com/adhilroshan/gitdesk"><img src="assets/projects/gitdesk.svg" alt="gitdesk" width="49%" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/adhilroshan/excalihub"><img src="assets/projects/excalihub.svg" alt="excalihub" width="49%" /></a>
+  <a href="https://github.com/adhilroshan/resumix"><img src="assets/projects/resumix.svg" alt="resumix" width="49%" /></a>
+</p>
 
 ---
 

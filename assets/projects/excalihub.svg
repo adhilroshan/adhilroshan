@@ -1,0 +1,54 @@
+<svg width="470" height="170" viewBox="0 0 470 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad_excalihub" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+    <linearGradient id="accent_excalihub" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Card Background -->
+  <rect x="1" y="1" width="468" height="168" rx="10" fill="url(#grad_excalihub)" stroke="#30363d" stroke-width="1.2"/>
+  
+  <!-- Subtle Top Accent Line -->
+  <rect x="12" y="1" width="120" height="2.5" rx="1" fill="url(#accent_excalihub)" />
+
+  <!-- Header: Icon & Title -->
+  <g transform="translate(22, 22)">
+    <!-- Icon Container -->
+    <rect x="0" y="0" width="32" height="32" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <path d="M20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83zM3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25z" fill="#fbbf24" transform="translate(4, 4) scale(1)"/>
+    
+    <!-- Title -->
+    <text x="42" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#e6edf3">excalihub</text>
+  </g>
+
+  <!-- Badge Pill -->
+  <g transform="translate(305, 24)">
+    <rect x="0" y="0" width="141" height="22" rx="11" fill="#21262d" stroke="#fbbf24" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="70.5" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="500" fill="#fbbf24" text-anchor="middle">Browser Extension</text>
+  </g>
+
+  <!-- Description -->
+  <text x="24" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e" letter-spacing="-0.1">Chrome extension (MV3) syncing Excalidraw diagrams directly</text>
+  <text x="24" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e" letter-spacing="-0.1">to private GitHub repos with an embedded sidebar drawer.</text>
+
+  <!-- Tags -->
+  <g transform="translate(24, 126)">
+    <g transform="translate(0, 0)">
+      <rect width="84.0" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="42.0" y="14.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="500" fill="#c9d1d9" text-anchor="middle">JavaScript</text>
+    </g>
+    <g transform="translate(92.0, 0)">
+      <rect width="84.0" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="42.0" y="14.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="500" fill="#c9d1d9" text-anchor="middle">Chrome MV3</text>
+    </g>
+    <g transform="translate(184.0, 0)">
+      <rect width="84.0" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="42.0" y="14.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="500" fill="#c9d1d9" text-anchor="middle">GitHub API</text>
+    </g>
+  </g>
+</svg>
