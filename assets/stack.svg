@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 370" width="100%" height="100%">
+  <defs>
+    <linearGradient id="stack_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#12171f"/>
+      <stop offset="100%" stop-color="#0a0d12"/>
+    </linearGradient>
+    <linearGradient id="stack_bezel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="stack_icon_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c2430"/>
+      <stop offset="100%" stop-color="#10151c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card Background & Specular Edge -->
+  <rect x="1" y="1" width="678" height="368" rx="14" fill="url(#stack_bg)" stroke="#262c36" stroke-width="1"/>
+  <rect x="2" y="2" width="676" height="1" rx="0.5" fill="url(#stack_bezel)"/>
+
+  <!-- Header -->
+  <rect x="24" y="22" width="40" height="40" rx="10" fill="url(#stack_icon_bg)" stroke="#30363d" stroke-width="1"/>
+  <!-- Layers / Architecture Icon -->
+  <path d="M44 31 L54 36 L44 41 L34 36 Z M34 43 L44 48 L54 43 M34 50 L44 55 L54 50" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="76" y="42" fill="#f0f6fc" font-size="19" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">Technical Architecture &amp; Toolchain</text>
+  <text x="76" y="58" fill="#8b949e" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" letter-spacing="0.8">PRODUCTION SYSTEMS &amp; CAPABILITIES</text>
+
+  <!-- Right Pill -->
+  <rect x="526" y="26" width="130" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="591" y="42" fill="#7ee787" font-size="10.5" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" letter-spacing="0.8" text-anchor="middle">ACTIVE STACK</text>
+
+  <!-- Divider 0 -->
+  <line x1="24" y1="74" x2="656" y2="74" stroke="#21262d" stroke-width="1"/>
+
+  <!-- ================= 01: LANGUAGES & RUNTIMES ================= -->
+  <text x="24" y="96" fill="#58a6ff" font-size="11" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" letter-spacing="0.8">// 01 · LANGUAGES &amp; RUNTIMES</text>
+
+  <g transform="translate(24, 108)">
+    <!-- TypeScript -->
+    <rect x="0" y="0" width="94" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#3178c6"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">TypeScript</text>
+
+    <!-- Rust -->
+    <rect x="102" y="0" width="58" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#dea584"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">Rust</text>
+
+    <!-- Python -->
+    <rect x="168" y="0" width="70" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#3572A5"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">Python</text>
+
+    <!-- Go -->
+    <rect x="246" y="0" width="46" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#00ADD8"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">Go</text>
+
+    <!-- Kotlin -->
+    <rect x="300" y="0" width="66" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#A97BFF"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">Kotlin</text>
+
+    <!-- Dart -->
+    <rect x="374" y="0" width="56" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#00B4AB"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">Dart</text>
+
+    <!-- C++ -->
+    <rect x="438" y="0" width="54" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#f34b7d"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">C++</text>
+  </g>
+
+  <!-- Divider 1 -->
+  <line x1="24" y1="148" x2="656" y2="148" stroke="#21262d" stroke-width="1"/>
+
+  <!-- ================= 02: CLIENT PLATFORMS ================= -->
+  <text x="24" y="170" fill="#58a6ff" font-size="11" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" letter-spacing="0.8">// 02 · CLIENT PLATFORMS (MOBILE &amp; DESKTOP)</text>
+
+  <g transform="translate(24, 182)">
+    <!-- Flutter -->
+    <rect x="0" y="0" width="70" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#02569B"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">Flutter</text>
+
+    <!-- React Native -->
+    <rect x="78" y="0" width="108" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#61DAFB"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">React Native</text>
+
+    <!-- Tauri -->
+    <rect x="194" y="0" width="60" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#FFC131"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">Tauri</text>
+
+    <!-- Electron -->
+    <rect x="262" y="0" width="80" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#47848F"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">Electron</text>
+
+    <!-- Electrobun -->
+    <rect x="350" y="0" width="96" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#A855F7"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">Electrobun</text>
+
+    <!-- Android Native -->
+    <rect x="454" y="0" width="76" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#3DDC84"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">Android</text>
+  </g>
+
+  <!-- Divider 2 -->
+  <line x1="24" y1="222" x2="656" y2="222" stroke="#21262d" stroke-width="1"/>
+
+  <!-- ================= 03: FULL-STACK & WEB ================= -->
+  <text x="24" y="244" fill="#58a6ff" font-size="11" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" letter-spacing="0.8">// 03 · FULL-STACK &amp; WEB ECOSYSTEM</text>
+
+  <g transform="translate(24, 256)">
+    <!-- Next.js -->
+    <rect x="0" y="0" width="72" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#ffffff"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">Next.js</text>
+
+    <!-- React -->
+    <rect x="80" y="0" width="64" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#61DAFB"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">React</text>
+
+    <!-- FastAPI -->
+    <rect x="152" y="0" width="72" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#059669"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">FastAPI</text>
+
+    <!-- Node.js -->
+    <rect x="232" y="0" width="74" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#22C55E"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">Node.js</text>
+
+    <!-- Bun -->
+    <rect x="314" y="0" width="52" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#FBF0DF"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">Bun</text>
+
+    <!-- Tailwind -->
+    <rect x="374" y="0" width="78" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#38BDF8"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">Tailwind</text>
+
+    <!-- WebSockets -->
+    <rect x="460" y="0" width="98" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#F97316"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">WebSockets</text>
+  </g>
+
+  <!-- Divider 3 -->
+  <line x1="24" y1="296" x2="656" y2="296" stroke="#21262d" stroke-width="1"/>
+
+  <!-- ================= 04: AI, DATA & INFRASTRUCTURE ================= -->
+  <text x="24" y="318" fill="#58a6ff" font-size="11" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" letter-spacing="0.8">// 04 · AI, DATA &amp; INFRASTRUCTURE</text>
+
+  <g transform="translate(24, 330)">
+    <!-- PyTorch -->
+    <rect x="0" y="0" width="76" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#EE4C2C"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">PyTorch</text>
+
+    <!-- Agentic AI -->
+    <rect x="84" y="0" width="92" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#8B5CF6"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">Agentic AI</text>
+
+    <!-- PostgreSQL -->
+    <rect x="184" y="0" width="96" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#336791"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">PostgreSQL</text>
+
+    <!-- Redis -->
+    <rect x="288" y="0" width="62" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#DC2626"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">Redis</text>
+
+    <!-- Docker -->
+    <rect x="358" y="0" width="70" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#2496ED"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">Docker</text>
+
+    <!-- Kubernetes -->
+    <rect x="436" y="0" width="98" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#326CE5"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">Kubernetes</text>
+
+    <!-- Cloud / AWS -->
+    <rect x="542" y="0" width="88" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="13" r="3.5" fill="#F59E0B"/>
+    <text x="22" y="17" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">AWS / GCP</text>
+  </g>
+</svg>

@@ -43,37 +43,9 @@
 
 ### Technical Focus
 
-<div align="center">
-
-<p>
-  <sub>LANGUAGES &amp; RUNTIMES</sub><br/>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,py,rust,go,kotlin,dart,java,cpp&perline=5&theme=dark" alt="Languages" />
-  </a>
+<p align="center">
+  <img src="assets/stack.svg" alt="Technical Architecture &amp; Toolchain" width="100%" />
 </p>
-
-<p>
-  <sub>WEB &amp; FULL-STACK ECOSYSTEM</sub><br/>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,tailwind,fastapi,django,bun&perline=4&theme=dark" alt="Web" />
-  </a>
-</p>
-
-<p>
-  <sub>MOBILE &amp; DESKTOP PLATFORMS</sub><br/>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=flutter,react,kotlin,tauri,electron&theme=dark" alt="Platforms" />
-  </a>
-</p>
-
-<p>
-  <sub>AI, DATA &amp; INFRASTRUCTURE</sub><br/>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=pytorch,postgres,mongodb,redis,sqlite,docker,kubernetes,aws,gcp&perline=5&theme=dark" alt="AI & Infra" />
-  </a>
-</p>
-
-</div>
 
 ---
 
