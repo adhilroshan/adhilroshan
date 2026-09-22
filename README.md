@@ -7,9 +7,9 @@
 <br/>
 
 <p align="center">
-  <a href="https://adhilroshan.in"><img src="https://img.shields.io/badge/Portfolio-161b22?style=flat-square&logo=googlechrome&logoColor=c9d1d9" alt="Portfolio" /></a>
+  <a href="https://adhilroshan.in"><img src="https://img.shields.io/badge/Website-161b22?style=flat-square&logo=googlechrome&logoColor=c9d1d9" alt="Website" /></a>
   <a href="https://www.linkedin.com/in/adhilroshan/"><img src="https://img.shields.io/badge/LinkedIn-161b22?style=flat-square&logo=linkedin&logoColor=c9d1d9" alt="LinkedIn" /></a>
-  <a href="https://twitter.com/adhilroshann"><img src="https://img.shields.io/badge/Twitter-161b22?style=flat-square&logo=x&logoColor=c9d1d9" alt="Twitter" /></a>
+  <a href="https://twitter.com/adhilroshann"><img src="https://img.shields.io/badge/X-161b22?style=flat-square&logo=x&logoColor=c9d1d9" alt="X" /></a>
   <a href="mailto:adhilchra@gmail.com"><img src="https://img.shields.io/badge/Email-161b22?style=flat-square&logo=gmail&logoColor=c9d1d9" alt="Email" /></a>
   <a href="https://t.me/adhil_roshan"><img src="https://img.shields.io/badge/Telegram-161b22?style=flat-square&logo=telegram&logoColor=c9d1d9" alt="Telegram" /></a>
 </p>
@@ -48,14 +48,14 @@
 <p>
   <sub>LANGUAGES &amp; RUNTIMES</sub><br/>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,py,rust,kotlin,dart,java,go,cpp&theme=dark" alt="Languages" />
+    <img src="https://skillicons.dev/icons?i=ts,js,py,rust,go,kotlin,dart,java,cpp&perline=5&theme=dark" alt="Languages" />
   </a>
 </p>
 
 <p>
   <sub>WEB &amp; FULL-STACK ECOSYSTEM</sub><br/>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,tailwind,fastapi,django,bun&theme=dark" alt="Web" />
+    <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,tailwind,fastapi,django,bun&perline=4&theme=dark" alt="Web" />
   </a>
 </p>
 
@@ -69,7 +69,7 @@
 <p>
   <sub>AI, DATA &amp; INFRASTRUCTURE</sub><br/>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=pytorch,postgres,mongodb,redis,sqlite,docker,kubernetes,aws,gcp&theme=dark" alt="AI & Infra" />
+    <img src="https://skillicons.dev/icons?i=pytorch,postgres,mongodb,redis,sqlite,docker,kubernetes,aws,gcp&perline=5&theme=dark" alt="AI & Infra" />
   </a>
 </p>
 

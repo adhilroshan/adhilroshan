@@ -1,52 +1,50 @@
-<svg width="720" height="135" viewBox="0 0 720 135" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 135" width="100%" height="100%">
   <defs>
-    <linearGradient id="bg_gitdesk" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#11161d" />
-      <stop offset="100%" stop-color="#0a0d12" />
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#12171f"/>
+      <stop offset="100%" stop-color="#0a0d12"/>
     </linearGradient>
-    <linearGradient id="bezel_gitdesk" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.05" />
-      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.15" />
-      <stop offset="70%" stop-color="#ffffff" stop-opacity="0.08" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03" />
+    <linearGradient id="bezel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="icon_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c2430"/>
+      <stop offset="100%" stop-color="#10151c"/>
     </linearGradient>
   </defs>
 
-  <!-- Card Base Frame -->
-  <rect x="1" y="1" width="718" height="133" rx="10" fill="url(#bg_gitdesk)" stroke="#262c36" stroke-width="1"/>
-  <path d="M10 1H710" stroke="url(#bezel_gitdesk)" stroke-width="1" stroke-linecap="round" />
+  <!-- Card Background -->
+  <rect x="1" y="1" width="718" height="133" rx="10" fill="url(#bg)" stroke="#262c36" stroke-width="1"/>
+  <rect x="2" y="2" width="716" height="1" rx="0.5" fill="url(#bezel)"/>
 
-  <!-- HEADER: Icon, Title & Badge -->
-  <g transform="translate(24, 18)">
-    <rect x="0" y="0" width="30" height="30" rx="6" fill="#161b22" stroke="#2d333b" stroke-width="1"/>
-    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-1 14.5l-3.5-3.5 1.41-1.41L11 12.67l5.09-5.09 1.41 1.41L11 15.5z" fill="#c9d1d9" transform="translate(3, 3) scale(1)"/>
-    <text x="40" y="21" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, sans-serif" font-size="18" font-weight="600" fill="#f0f6fc" letter-spacing="-0.2">gitdesk</text>
-    <path d="123 13L128 8M128 8H124M128 8V12" stroke="#484f58" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-  </g>
+  <!-- Icon Container -->
+  <rect x="20" y="20" width="44" height="44" rx="10" fill="url(#icon_bg)" stroke="#30363d" stroke-width="1"/>
+  <!-- Git Branch Icon -->
+  <path d="M34 32 A3 3 0 1 1 34 38 A3 3 0 1 1 34 32 M34 46 A3 3 0 1 1 34 52 A3 3 0 1 1 34 46 M50 32 A3 3 0 1 1 50 38 A3 3 0 1 1 50 32 M34 38 L34 46 M50 38 C50 44 34 42 34 46" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round"/>
 
-  <!-- Category Badge -->
-  <g transform="translate(614.8, 22)">
-    <rect x="0" y="0" width="81.2" height="22" rx="11" fill="#161b22" stroke="#2d333b" stroke-width="1"/>
-    <text x="40.6" y="15" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="11" font-weight="500" fill="#8b949e" text-anchor="middle">DevSecOps</text>
-  </g>
+  <!-- Title & Meta -->
+  <text x="78" y="47" fill="#f0f6fc" font-size="20" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">gitdesk</text>
+  
+  <!-- Right Badge -->
+  <rect x="548" y="26" width="128" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="612" y="42" fill="#7ee787" font-size="10" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" letter-spacing="0.8" text-anchor="middle">DESKTOP CLIENT</text>
+
+  <!-- Chevron -->
+  <path d="M688 38 L694 38 L694 44 M694 38 L687 45" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 
   <!-- Description -->
-  <text x="24" y="72" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#8b949e" letter-spacing="-0.1">AI-native developer security partner with local vulnerability and secret detection before commit/push, plus Git Worktrees.</text>
+  <text x="78" y="78" fill="#8b949e" font-size="14" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">Lightweight native Git client built for high-speed multi-branch workflows</text>
 
   <!-- Tags -->
-  <g transform="translate(24, 94)">
-    <g transform="translate(0, 0)">
-      <rect width="64.4" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
-      <text x="32.2" y="15" font-family="ui-monospace, monospace" font-size="11" font-weight="500" fill="#7d8590" text-anchor="middle">Python</text>
-    </g><g transform="translate(72.4, 0)">
-      <rect width="94.0" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
-      <text x="47.0" y="15" font-family="ui-monospace, monospace" font-size="11" font-weight="500" fill="#7d8590" text-anchor="middle">TypeScript</text>
-    </g><g transform="translate(174.4, 0)">
-      <rect width="79.2" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
-      <text x="39.6" y="15" font-family="ui-monospace, monospace" font-size="11" font-weight="500" fill="#7d8590" text-anchor="middle">DevTools</text>
-    </g><g transform="translate(261.6, 0)">
-      <rect width="79.2" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
-      <text x="39.6" y="15" font-family="ui-monospace, monospace" font-size="11" font-weight="500" fill="#7d8590" text-anchor="middle">Security</text>
-    </g>
+  <g transform="translate(78, 96)">
+    <rect x="0" y="0" width="88" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="44" y="16" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">TypeScript</text>
+
+    <rect x="96" y="0" width="76" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="134" y="16" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">Electron</text>
+
+    <rect x="180" y="0" width="72" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="216" y="16" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">Git API</text>
   </g>
 </svg>

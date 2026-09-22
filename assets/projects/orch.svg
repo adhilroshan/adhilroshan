@@ -1,52 +1,51 @@
-<svg width="720" height="135" viewBox="0 0 720 135" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 135" width="100%" height="100%">
   <defs>
-    <linearGradient id="bg_orch" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#11161d" />
-      <stop offset="100%" stop-color="#0a0d12" />
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#12171f"/>
+      <stop offset="100%" stop-color="#0a0d12"/>
     </linearGradient>
-    <linearGradient id="bezel_orch" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.05" />
-      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.15" />
-      <stop offset="70%" stop-color="#ffffff" stop-opacity="0.08" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03" />
+    <linearGradient id="bezel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="icon_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c2430"/>
+      <stop offset="100%" stop-color="#10151c"/>
     </linearGradient>
   </defs>
 
-  <!-- Card Base Frame -->
-  <rect x="1" y="1" width="718" height="133" rx="10" fill="url(#bg_orch)" stroke="#262c36" stroke-width="1"/>
-  <path d="M10 1H710" stroke="url(#bezel_orch)" stroke-width="1" stroke-linecap="round" />
+  <!-- Card Background -->
+  <rect x="1" y="1" width="718" height="133" rx="10" fill="url(#bg)" stroke="#262c36" stroke-width="1"/>
+  <!-- Specular top highlight -->
+  <rect x="2" y="2" width="716" height="1" rx="0.5" fill="url(#bezel)"/>
 
-  <!-- HEADER: Icon, Title & Badge -->
-  <g transform="translate(24, 18)">
-    <rect x="0" y="0" width="30" height="30" rx="6" fill="#161b22" stroke="#2d333b" stroke-width="1"/>
-    <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 14.93V17a1 1 0 11-2 0v-.07A8.001 8.001 0 014.07 11H5a1 1 0 110-2h-.93A8.001 8.001 0 0111 4.07V5a1 1 0 112 0v-.93A8.001 8.001 0 0119.93 9H19a1 1 0 110 2h.93A8.001 8.001 0 0113 16.93zM12 8a4 4 0 100 8 4 4 0 000-8z" fill="#c9d1d9" transform="translate(3, 3) scale(1)"/>
-    <text x="40" y="21" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, sans-serif" font-size="18" font-weight="600" fill="#f0f6fc" letter-spacing="-0.2">orch</text>
-    <path d="90 13L95 8M95 8H91M95 8V12" stroke="#484f58" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-  </g>
+  <!-- Icon Container -->
+  <rect x="20" y="20" width="44" height="44" rx="10" fill="url(#icon_bg)" stroke="#30363d" stroke-width="1"/>
+  <!-- Terminal / Command Icon -->
+  <path d="M33 34 L40 42 L33 50 M42 50 L51 50" fill="none" stroke="#58a6ff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <!-- Category Badge -->
-  <g transform="translate(546.8, 22)">
-    <rect x="0" y="0" width="149.2" height="22" rx="11" fill="#161b22" stroke="#2d333b" stroke-width="1"/>
-    <text x="74.6" y="15" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="11" font-weight="500" fill="#8b949e" text-anchor="middle">Agent Orchestration</text>
-  </g>
+  <!-- Title & Meta -->
+  <text x="78" y="47" fill="#f0f6fc" font-size="20" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">orch</text>
+  
+  <!-- Right Badge -->
+  <rect x="548" y="26" width="128" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="612" y="42" fill="#7ee787" font-size="10" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" letter-spacing="0.8" text-anchor="middle">AGENTIC WORKFLOWS</text>
+
+  <!-- Chevron -->
+  <path d="M688 38 L694 38 L694 44 M694 38 L687 45" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 
   <!-- Description -->
-  <text x="24" y="72" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#8b949e" letter-spacing="-0.1">Multi-agent task orchestration framework for concurrent workflows, structured project decomposition, and parallel agent execution.</text>
+  <text x="78" y="78" fill="#8b949e" font-size="14" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">Intelligent CLI orchestrator managing distributed multi-agent workflows</text>
 
   <!-- Tags -->
-  <g transform="translate(24, 94)">
-    <g transform="translate(0, 0)">
-      <rect width="94.0" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
-      <text x="47.0" y="15" font-family="ui-monospace, monospace" font-size="11" font-weight="500" fill="#7d8590" text-anchor="middle">JavaScript</text>
-    </g><g transform="translate(102.0, 0)">
-      <rect width="71.8" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
-      <text x="35.9" y="15" font-family="ui-monospace, monospace" font-size="11" font-weight="500" fill="#7d8590" text-anchor="middle">Node.js</text>
-    </g><g transform="translate(181.8, 0)">
-      <rect width="86.6" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
-      <text x="43.3" y="15" font-family="ui-monospace, monospace" font-size="11" font-weight="500" fill="#7d8590" text-anchor="middle">AI Agents</text>
-    </g><g transform="translate(276.40000000000003, 0)">
-      <rect width="94.0" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
-      <text x="47.0" y="15" font-family="ui-monospace, monospace" font-size="11" font-weight="500" fill="#7d8590" text-anchor="middle">Automation</text>
-    </g>
+  <g transform="translate(78, 96)">
+    <rect x="0" y="0" width="88" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="44" y="16" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">TypeScript</text>
+
+    <rect x="96" y="0" width="68" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="130" y="16" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">Node.js</text>
+
+    <rect x="172" y="0" width="82" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="213" y="16" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">AI Agents</text>
   </g>
 </svg>

@@ -1,52 +1,50 @@
-<svg width="720" height="135" viewBox="0 0 720 135" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 135" width="100%" height="100%">
   <defs>
-    <linearGradient id="bg_hope-nl" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#11161d" />
-      <stop offset="100%" stop-color="#0a0d12" />
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#12171f"/>
+      <stop offset="100%" stop-color="#0a0d12"/>
     </linearGradient>
-    <linearGradient id="bezel_hope-nl" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.05" />
-      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.15" />
-      <stop offset="70%" stop-color="#ffffff" stop-opacity="0.08" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03" />
+    <linearGradient id="bezel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="icon_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c2430"/>
+      <stop offset="100%" stop-color="#10151c"/>
     </linearGradient>
   </defs>
 
-  <!-- Card Base Frame -->
-  <rect x="1" y="1" width="718" height="133" rx="10" fill="url(#bg_hope-nl)" stroke="#262c36" stroke-width="1"/>
-  <path d="M10 1H710" stroke="url(#bezel_hope-nl)" stroke-width="1" stroke-linecap="round" />
+  <!-- Card Background -->
+  <rect x="1" y="1" width="718" height="133" rx="10" fill="url(#bg)" stroke="#262c36" stroke-width="1"/>
+  <rect x="2" y="2" width="716" height="1" rx="0.5" fill="url(#bezel)"/>
 
-  <!-- HEADER: Icon, Title & Badge -->
-  <g transform="translate(24, 18)">
-    <rect x="0" y="0" width="30" height="30" rx="6" fill="#161b22" stroke="#2d333b" stroke-width="1"/>
-    <path d="M12 2a9 9 0 00-9 9c0 3.88 2.5 7.18 6 8.41V22h6v-2.59c3.5-1.23 6-4.53 6-8.41a9 9 0 00-9-9zm-2 15v-1h4v1h-4zm3-3h-2v-2h2v2zm0-4h-2V6h2v4z" fill="#c9d1d9" transform="translate(3, 3) scale(1)"/>
-    <text x="40" y="21" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, sans-serif" font-size="18" font-weight="600" fill="#f0f6fc" letter-spacing="-0.2">hope-nl</text>
-    <path d="123 13L128 8M128 8H124M128 8V12" stroke="#484f58" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-  </g>
+  <!-- Icon Container -->
+  <rect x="20" y="20" width="44" height="44" rx="10" fill="url(#icon_bg)" stroke="#30363d" stroke-width="1"/>
+  <!-- Sparkle / Compiler Icon -->
+  <path d="M42 30 L45 38 L53 42 L45 46 L42 54 L39 46 L31 42 L39 38 Z" fill="#58a6ff"/>
 
-  <!-- Category Badge -->
-  <g transform="translate(594.4, 22)">
-    <rect x="0" y="0" width="101.6" height="22" rx="11" fill="#161b22" stroke="#2d333b" stroke-width="1"/>
-    <text x="50.8" y="15" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="11" font-weight="500" fill="#8b949e" text-anchor="middle">LLM Research</text>
-  </g>
+  <!-- Title & Meta -->
+  <text x="78" y="47" fill="#f0f6fc" font-size="20" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">hope-nl</text>
+  
+  <!-- Right Badge -->
+  <rect x="548" y="26" width="128" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="612" y="42" fill="#7ee787" font-size="10" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" letter-spacing="0.8" text-anchor="middle">NLP COMPILER</text>
+
+  <!-- Chevron -->
+  <path d="M688 38 L694 38 L694 44 M694 38 L687 45" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 
   <!-- Description -->
-  <text x="24" y="72" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#8b949e" letter-spacing="-0.1">PyTorch implementation of Nested Learning: dynamic LLMs that rewrite their own weights as they read during live inference.</text>
+  <text x="78" y="78" fill="#8b949e" font-size="14" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">Natural language compiler transforming human intent into executable scripts</text>
 
   <!-- Tags -->
-  <g transform="translate(24, 94)">
-    <g transform="translate(0, 0)">
-      <rect width="64.4" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
-      <text x="32.2" y="15" font-family="ui-monospace, monospace" font-size="11" font-weight="500" fill="#7d8590" text-anchor="middle">Python</text>
-    </g><g transform="translate(72.4, 0)">
-      <rect width="71.8" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
-      <text x="35.9" y="15" font-family="ui-monospace, monospace" font-size="11" font-weight="500" fill="#7d8590" text-anchor="middle">PyTorch</text>
-    </g><g transform="translate(152.20000000000002, 0)">
-      <rect width="116.2" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
-      <text x="58.1" y="15" font-family="ui-monospace, monospace" font-size="11" font-weight="500" fill="#7d8590" text-anchor="middle">Deep Learning</text>
-    </g><g transform="translate(276.40000000000003, 0)">
-      <rect width="79.2" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
-      <text x="39.6" y="15" font-family="ui-monospace, monospace" font-size="11" font-weight="500" fill="#7d8590" text-anchor="middle">Research</text>
-    </g>
+  <g transform="translate(78, 96)">
+    <rect x="0" y="0" width="68" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="34" y="16" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">Python</text>
+
+    <rect x="76" y="0" width="56" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="104" y="16" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">LLM</text>
+
+    <rect x="140" y="0" width="54" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="167" y="16" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">AST</text>
   </g>
 </svg>

@@ -1,49 +1,51 @@
-<svg width="720" height="135" viewBox="0 0 720 135" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 135" width="100%" height="100%">
   <defs>
-    <linearGradient id="bg_excalihub" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#11161d" />
-      <stop offset="100%" stop-color="#0a0d12" />
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#12171f"/>
+      <stop offset="100%" stop-color="#0a0d12"/>
     </linearGradient>
-    <linearGradient id="bezel_excalihub" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.05" />
-      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.15" />
-      <stop offset="70%" stop-color="#ffffff" stop-opacity="0.08" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03" />
+    <linearGradient id="bezel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="icon_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c2430"/>
+      <stop offset="100%" stop-color="#10151c"/>
     </linearGradient>
   </defs>
 
-  <!-- Card Base Frame -->
-  <rect x="1" y="1" width="718" height="133" rx="10" fill="url(#bg_excalihub)" stroke="#262c36" stroke-width="1"/>
-  <path d="M10 1H710" stroke="url(#bezel_excalihub)" stroke-width="1" stroke-linecap="round" />
+  <!-- Card Background -->
+  <rect x="1" y="1" width="718" height="133" rx="10" fill="url(#bg)" stroke="#262c36" stroke-width="1"/>
+  <rect x="2" y="2" width="716" height="1" rx="0.5" fill="url(#bezel)"/>
 
-  <!-- HEADER: Icon, Title & Badge -->
-  <g transform="translate(24, 18)">
-    <rect x="0" y="0" width="30" height="30" rx="6" fill="#161b22" stroke="#2d333b" stroke-width="1"/>
-    <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z" fill="#c9d1d9" transform="translate(3, 3) scale(1)"/>
-    <text x="40" y="21" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, sans-serif" font-size="18" font-weight="600" fill="#f0f6fc" letter-spacing="-0.2">excalihub</text>
-    <path d="145 13L150 8M150 8H146M150 8V12" stroke="#484f58" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-  </g>
+  <!-- Icon Container -->
+  <rect x="20" y="20" width="44" height="44" rx="10" fill="url(#icon_bg)" stroke="#30363d" stroke-width="1"/>
+  <!-- Canvas / Hub Icon -->
+  <rect x="30" y="30" width="14" height="14" rx="3" fill="none" stroke="#58a6ff" stroke-width="2"/>
+  <rect x="42" y="42" width="14" height="14" rx="3" fill="none" stroke="#58a6ff" stroke-width="2"/>
 
-  <!-- Category Badge -->
-  <g transform="translate(560.4, 22)">
-    <rect x="0" y="0" width="135.6" height="22" rx="11" fill="#161b22" stroke="#2d333b" stroke-width="1"/>
-    <text x="67.8" y="15" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="11" font-weight="500" fill="#8b949e" text-anchor="middle">Browser Extension</text>
-  </g>
+  <!-- Title & Meta -->
+  <text x="78" y="47" fill="#f0f6fc" font-size="20" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">excalihub</text>
+  
+  <!-- Right Badge -->
+  <rect x="548" y="26" width="128" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="612" y="42" fill="#7ee787" font-size="10" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" letter-spacing="0.8" text-anchor="middle">CANVAS SYSTEM</text>
+
+  <!-- Chevron -->
+  <path d="M688 38 L694 38 L694 44 M694 38 L687 45" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 
   <!-- Description -->
-  <text x="24" y="72" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#8b949e" letter-spacing="-0.1">Chrome extension (MV3) syncing Excalidraw diagrams directly to private GitHub repositories with an embedded sidebar drawer.</text>
+  <text x="78" y="78" fill="#8b949e" font-size="14" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">Collaborative canvas platform with real-time sync and spatial organization</text>
 
   <!-- Tags -->
-  <g transform="translate(24, 94)">
-    <g transform="translate(0, 0)">
-      <rect width="94.0" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
-      <text x="47.0" y="15" font-family="ui-monospace, monospace" font-size="11" font-weight="500" fill="#7d8590" text-anchor="middle">JavaScript</text>
-    </g><g transform="translate(102.0, 0)">
-      <rect width="94.0" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
-      <text x="47.0" y="15" font-family="ui-monospace, monospace" font-size="11" font-weight="500" fill="#7d8590" text-anchor="middle">Chrome MV3</text>
-    </g><g transform="translate(204.0, 0)">
-      <rect width="94.0" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
-      <text x="47.0" y="15" font-family="ui-monospace, monospace" font-size="11" font-weight="500" fill="#7d8590" text-anchor="middle">GitHub API</text>
-    </g>
+  <g transform="translate(78, 96)">
+    <rect x="0" y="0" width="68" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="34" y="16" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">Next.js</text>
+
+    <rect x="76" y="0" width="68" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="110" y="16" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">Canvas</text>
+
+    <rect x="152" y="0" width="92" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="198" y="16" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">WebSockets</text>
   </g>
 </svg>
