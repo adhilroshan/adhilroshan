@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ Hi there, I'm <a href="https://adhil.site">Adhil Roshan</a> 👋
+# ⚡ Hi there, I'm <a href="https://adhilroshan.in">Adhil Roshan</a> 👋
 
 <a href="https://readme-typing-svg.demolab.com">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Full+Stack+AI+Engineer;Autonomous+Agents+%26+Multi-Agent+Workflows;TypeScript%2C+Python%2C+Next.js+%26+FastAPI;Taking+AI+from+Requirements+to+Production" alt="Typing SVG" />
@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://adhil.site"><img src="https://img.shields.io/badge/Portfolio-adhil.site-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://adhilroshan.in"><img src="https://img.shields.io/badge/Portfolio-adhilroshan.in-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/adhilroshan/"><img src="https://img.shields.io/badge/LinkedIn-adhilroshan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://twitter.com/adhilroshann"><img src="https://img.shields.io/badge/Twitter-@adhilroshann-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="Twitter" /></a>
   <a href="mailto:adhilchra@gmail.com"><img src="https://img.shields.io/badge/Email-adhilchra@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
