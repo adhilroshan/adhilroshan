@@ -28,19 +28,6 @@
 
 ---
 
-### What I Do & Build
-
-Full Stack AI Engineer who takes AI-powered solutions from customer requirements to production deployment — scoping integrations, configuring LLM-based systems, and building resilient multi-platform architectures across **Web**, **Mobile**, and **Desktop**.
-
-- **Autonomous Agents & Agentic Workflows:** Architecting multi-agent coordination systems, autonomous computer-use agents (*"AI that can run your computer"* at BeSuperHuman.Ai), role-tailored AI companions, and dynamic classroom generation tools.
-- **Production AI Solutions & Multimodal:** Deploying production voice support agents with ElevenLabs, automated conversational systems on WhatsApp, and custom AI integrations with AWS Bedrock, CrewAI, LangChain, and Mastra AI.
-- **Modern Web & Full-Stack:** Deeply versed across the modern JavaScript/TypeScript ecosystem (React, Next.js, Node.js, Express, NestJS, and rich JS/TS libraries) alongside Python (FastAPI, Django).
-- **Cross-Platform & Native Mobile:** Engineering fluid, high-performance mobile apps across **Flutter**, **React Native**, and native **Kotlin** (e.g. AI-driven dynamic widget renderers).
-- **Desktop & Native DevTools:** Building fast, lightweight desktop applications with **Tauri**, **Electron**, and **Electrobun**.
-- **Local-First & Privacy-Focused Tools:** Engineering on-device developer utilities like [`onloq`](https://github.com/adhilroshan/onloq) (local activity & code change logger with Ollama AI summarization) and [`resumix`](https://github.com/adhilroshan/resumix).
-
----
-
 ### Featured Projects
 
 <table>
@@ -123,7 +110,7 @@ Full Stack AI Engineer who takes AI-powered solutions from customer requirements
 ### Coding Activity & Streak
 
 <!--START_SECTION:worklog-->
-🔥 Current streak: 11 days · Longest: 11 days
+Current streak: 11 days · Longest: 11 days
 
 ![streak](assets/streak.svg)
 
