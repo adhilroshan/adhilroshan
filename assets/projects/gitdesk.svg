@@ -1,58 +1,44 @@
-<svg width="470" height="170" viewBox="0 0 470 170" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="grad_gitdesk" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#161b22" />
-      <stop offset="100%" stop-color="#0d1117" />
-    </linearGradient>
-    <linearGradient id="accent_gitdesk" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.1" />
-    </linearGradient>
-  </defs>
-
-  <!-- Card Background -->
-  <rect x="1" y="1" width="468" height="168" rx="10" fill="url(#grad_gitdesk)" stroke="#30363d" stroke-width="1.2"/>
+<svg width="470" height="165" viewBox="0 0 470 165" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Card Background: Deep Obsidian -->
+  <rect x="1" y="1" width="468" height="163" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
   
-  <!-- Subtle Top Accent Line -->
-  <rect x="12" y="1" width="120" height="2.5" rx="1" fill="url(#accent_gitdesk)" />
+  <!-- Subtle Top Hairline Highlight -->
+  <line x1="1" y1="1" x2="469" y2="1" stroke="#21262d" stroke-width="1" />
 
   <!-- Header: Icon & Title -->
-  <g transform="translate(22, 22)">
+  <g transform="translate(20, 20)">
     <!-- Icon Container -->
-    <rect x="0" y="0" width="32" height="32" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
-    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z" fill="#818cf8" transform="translate(4, 4) scale(1)"/>
+    <rect x="0" y="0" width="30" height="30" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-1 14.5l-3.5-3.5 1.41-1.41L11 12.67l5.09-5.09 1.41 1.41L11 15.5z" fill="#c9d1d9" transform="translate(3, 3) scale(1)"/>
     
     <!-- Title -->
-    <text x="42" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#e6edf3">gitdesk</text>
+    <text x="40" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="17" font-weight="600" fill="#f0f6fc">gitdesk</text>
   </g>
 
   <!-- Badge Pill -->
-  <g transform="translate(356, 24)">
-    <rect x="0" y="0" width="90" height="22" rx="11" fill="#21262d" stroke="#818cf8" stroke-opacity="0.4" stroke-width="1"/>
-    <text x="45.0" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="500" fill="#818cf8" text-anchor="middle">DevSecOps</text>
+  <g transform="translate(371.5, 22)">
+    <rect x="0" y="0" width="76.5" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="38.2" y="14.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="10.5" font-weight="500" fill="#8b949e" text-anchor="middle">DevSecOps</text>
   </g>
 
   <!-- Description -->
-  <text x="24" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e" letter-spacing="-0.1">AI-native developer security partner with local vulnerability</text>
-  <text x="24" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e" letter-spacing="-0.1">and secret detection before commit/push, plus Git Worktrees.</text>
+  <text x="22" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#8b949e" letter-spacing="-0.1">AI-native developer security partner with local vulnerability and</text>
+  <text x="22" y="97" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#8b949e" letter-spacing="-0.1">secret detection before commit/push, plus Git Worktree management.</text>
 
   <!-- Tags -->
-  <g transform="translate(24, 126)">
+  <g transform="translate(22, 122)">
     <g transform="translate(0, 0)">
-      <rect width="56.8" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-      <text x="28.4" y="14.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="500" fill="#c9d1d9" text-anchor="middle">Python</text>
-    </g>
-    <g transform="translate(64.8, 0)">
-      <rect width="84.0" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-      <text x="42.0" y="14.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="500" fill="#c9d1d9" text-anchor="middle">TypeScript</text>
-    </g>
-    <g transform="translate(156.8, 0)">
-      <rect width="70.4" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-      <text x="35.2" y="14.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="500" fill="#c9d1d9" text-anchor="middle">DevTools</text>
-    </g>
-    <g transform="translate(235.20000000000002, 0)">
-      <rect width="70.4" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-      <text x="35.2" y="14.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="500" fill="#c9d1d9" text-anchor="middle">Security</text>
+      <rect width="61.2" height="22" rx="4" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+      <text x="30.6" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">Python</text>
+    </g><g transform="translate(69.2, 0)">
+      <rect width="90.0" height="22" rx="4" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+      <text x="45.0" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">TypeScript</text>
+    </g><g transform="translate(167.2, 0)">
+      <rect width="75.6" height="22" rx="4" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+      <text x="37.8" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">DevTools</text>
+    </g><g transform="translate(250.79999999999998, 0)">
+      <rect width="75.6" height="22" rx="4" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+      <text x="37.8" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">Security</text>
     </g>
   </g>
 </svg>

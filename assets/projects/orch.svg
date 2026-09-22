@@ -1,58 +1,44 @@
-<svg width="470" height="170" viewBox="0 0 470 170" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="grad_orch" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#161b22" />
-      <stop offset="100%" stop-color="#0d1117" />
-    </linearGradient>
-    <linearGradient id="accent_orch" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.1" />
-    </linearGradient>
-  </defs>
-
-  <!-- Card Background -->
-  <rect x="1" y="1" width="468" height="168" rx="10" fill="url(#grad_orch)" stroke="#30363d" stroke-width="1.2"/>
+<svg width="470" height="165" viewBox="0 0 470 165" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Card Background: Deep Obsidian -->
+  <rect x="1" y="1" width="468" height="163" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
   
-  <!-- Subtle Top Accent Line -->
-  <rect x="12" y="1" width="120" height="2.5" rx="1" fill="url(#accent_orch)" />
+  <!-- Subtle Top Hairline Highlight -->
+  <line x1="1" y1="1" x2="469" y2="1" stroke="#21262d" stroke-width="1" />
 
   <!-- Header: Icon & Title -->
-  <g transform="translate(22, 22)">
+  <g transform="translate(20, 20)">
     <!-- Icon Container -->
-    <rect x="0" y="0" width="32" height="32" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
-    <path d="M12 2a4 4 0 0 1 4 4c0 1.5-.8 2.8-2 3.5V13a2 2 0 0 1-2 2h-1v2.1a4 4 0 1 1-2 0V15h-1a2 2 0 0 1-2-2V9.5A4.002 4.002 0 0 1 8 2a4 4 0 0 1 4 0zm0 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-4 17a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm4-10.1c.3.1.7.1 1 .1h1a1 1 0 0 0 1-1V9.5c-.6-.3-1.1-.8-1.5-1.5H10.5c-.4.7-.9 1.2-1.5 1.5v.5a1 1 0 0 0 1 1h1z" fill="#38bdf8" transform="translate(4, 4) scale(1)"/>
+    <rect x="0" y="0" width="30" height="30" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 14.93V17a1 1 0 11-2 0v-.07A8.001 8.001 0 014.07 11H5a1 1 0 110-2h-.93A8.001 8.001 0 0111 4.07V5a1 1 0 112 0v-.93A8.001 8.001 0 0119.93 9H19a1 1 0 110 2h.93A8.001 8.001 0 0113 16.93zM12 8a4 4 0 100 8 4 4 0 000-8z" fill="#c9d1d9" transform="translate(3, 3) scale(1)"/>
     
     <!-- Title -->
-    <text x="42" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#e6edf3">orch</text>
+    <text x="40" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="17" font-weight="600" fill="#f0f6fc">orch</text>
   </g>
 
   <!-- Badge Pill -->
-  <g transform="translate(291, 24)">
-    <rect x="0" y="0" width="155" height="22" rx="11" fill="#21262d" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
-    <text x="77.5" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="500" fill="#38bdf8" text-anchor="middle">Agent Orchestration</text>
+  <g transform="translate(306.5, 22)">
+    <rect x="0" y="0" width="141.5" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="70.8" y="14.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="10.5" font-weight="500" fill="#8b949e" text-anchor="middle">Agent Orchestration</text>
   </g>
 
   <!-- Description -->
-  <text x="24" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e" letter-spacing="-0.1">Multi-agent task orchestration framework for concurrent workflows,</text>
-  <text x="24" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e" letter-spacing="-0.1">structured project decomposition, and parallel agent execution.</text>
+  <text x="22" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#8b949e" letter-spacing="-0.1">Multi-agent task orchestration framework for concurrent workflows,</text>
+  <text x="22" y="97" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#8b949e" letter-spacing="-0.1">structured project decomposition, and parallel agent execution.</text>
 
   <!-- Tags -->
-  <g transform="translate(24, 126)">
+  <g transform="translate(22, 122)">
     <g transform="translate(0, 0)">
-      <rect width="84.0" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-      <text x="42.0" y="14.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="500" fill="#c9d1d9" text-anchor="middle">JavaScript</text>
-    </g>
-    <g transform="translate(92.0, 0)">
-      <rect width="63.6" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-      <text x="31.8" y="14.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="500" fill="#c9d1d9" text-anchor="middle">Node.js</text>
-    </g>
-    <g transform="translate(163.6, 0)">
-      <rect width="77.19999999999999" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-      <text x="38.599999999999994" y="14.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="500" fill="#c9d1d9" text-anchor="middle">AI Agents</text>
-    </g>
-    <g transform="translate(248.79999999999998, 0)">
-      <rect width="84.0" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-      <text x="42.0" y="14.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="500" fill="#c9d1d9" text-anchor="middle">Automation</text>
+      <rect width="90.0" height="22" rx="4" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+      <text x="45.0" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">JavaScript</text>
+    </g><g transform="translate(98.0, 0)">
+      <rect width="68.4" height="22" rx="4" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+      <text x="34.2" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">Node.js</text>
+    </g><g transform="translate(174.4, 0)">
+      <rect width="82.8" height="22" rx="4" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+      <text x="41.4" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">AI Agents</text>
+    </g><g transform="translate(265.2, 0)">
+      <rect width="90.0" height="22" rx="4" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+      <text x="45.0" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">Automation</text>
     </g>
   </g>
 </svg>

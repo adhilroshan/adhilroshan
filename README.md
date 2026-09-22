@@ -1,28 +1,24 @@
 <div align="center">
 
 <a href="https://adhilroshan.in">
-  <img src="assets/header.svg" width="100%" alt="Adhil Roshan - Full Stack AI Engineer" />
+  <img src="assets/header.svg" width="100%" alt="Adhil Roshan - Senior AI Engineer" />
 </a>
 
-<br/><br/>
+<br/>
 
 <p align="center">
-  <a href="https://adhilroshan.in"><img src="https://img.shields.io/badge/Portfolio-adhilroshan.in-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/adhilroshan/"><img src="https://img.shields.io/badge/LinkedIn-adhilroshan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://twitter.com/adhilroshann"><img src="https://img.shields.io/badge/Twitter-@adhilroshann-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="Twitter" /></a>
-  <a href="mailto:adhilchra@gmail.com"><img src="https://img.shields.io/badge/Email-adhilchra@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://t.me/adhil_roshan"><img src="https://img.shields.io/badge/Telegram-@adhil__roshan-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=adhilroshan&label=Profile%20Views&color=007acc&style=flat-square" alt="Profile Views" />
+  <a href="https://adhilroshan.in"><img src="https://img.shields.io/badge/portfolio-adhilroshan.in-161b22?style=flat-square&logo=googlechrome&logoColor=c9d1d9" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/adhilroshan/"><img src="https://img.shields.io/badge/linkedin-adhilroshan-161b22?style=flat-square&logo=linkedin&logoColor=c9d1d9" alt="LinkedIn" /></a>
+  <a href="https://twitter.com/adhilroshann"><img src="https://img.shields.io/badge/x-@adhilroshann-161b22?style=flat-square&logo=x&logoColor=c9d1d9" alt="Twitter" /></a>
+  <a href="mailto:adhilchra@gmail.com"><img src="https://img.shields.io/badge/email-adhilchra@gmail.com-161b22?style=flat-square&logo=gmail&logoColor=c9d1d9" alt="Email" /></a>
+  <a href="https://t.me/adhil_roshan"><img src="https://img.shields.io/badge/telegram-@adhil__roshan-161b22?style=flat-square&logo=telegram&logoColor=c9d1d9" alt="Telegram" /></a>
 </p>
 
 </div>
 
 ---
 
-### Featured Projects
+### Featured Systems
 
 <p align="center">
   <a href="https://github.com/adhilroshan/orch"><img src="assets/projects/orch.svg" alt="orch" width="49%" /></a>
@@ -39,35 +35,35 @@
 
 ---
 
-### Tech Arsenal
+### Technical Focus
 
 <div align="center">
 
 <p>
-  <b>Languages & Core</b><br/>
+  <sub>LANGUAGES &amp; RUNTIMES</sub><br/>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,py,rust,kotlin,dart,java,go,cpp" alt="Languages & Core" />
+    <img src="https://skillicons.dev/icons?i=ts,js,py,rust,kotlin,dart,java,go,cpp&theme=dark" alt="Languages" />
   </a>
 </p>
 
 <p>
-  <b>Web & Full-Stack Ecosystem</b><br/>
+  <sub>WEB &amp; FULL-STACK ECOSYSTEM</sub><br/>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,tailwind,fastapi,django,bun" alt="Web & Full-Stack" />
+    <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,tailwind,fastapi,django,bun&theme=dark" alt="Web" />
   </a>
 </p>
 
 <p>
-  <b>Mobile & Desktop Platforms</b><br/>
+  <sub>MOBILE &amp; DESKTOP PLATFORMS</sub><br/>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=flutter,react,kotlin,tauri,electron" alt="Mobile & Desktop Platforms" />
+    <img src="https://skillicons.dev/icons?i=flutter,react,kotlin,tauri,electron&theme=dark" alt="Platforms" />
   </a>
 </p>
 
 <p>
-  <b>AI, Data & Cloud Stack</b><br/>
+  <sub>AI, DATA &amp; INFRASTRUCTURE</sub><br/>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=pytorch,postgres,mongodb,redis,sqlite,docker,kubernetes,aws,gcp" alt="AI, Data & Cloud Stack" />
+    <img src="https://skillicons.dev/icons?i=pytorch,postgres,mongodb,redis,sqlite,docker,kubernetes,aws,gcp&theme=dark" alt="AI & Infra" />
   </a>
 </p>
 
@@ -75,7 +71,7 @@
 
 ---
 
-### Coding Activity & Streak
+### Engineering Activity &amp; Streak
 
 <!--START_SECTION:worklog-->
 Current streak: 11 days · Longest: 11 days
@@ -84,11 +80,3 @@ Current streak: 11 days · Longest: 11 days
 
 ![activity](assets/activity.svg)
 <!--END_SECTION:worklog-->
-
----
-
-<div align="center">
-
-<sub>Crafted with passion for autonomous agents, high performance, and great software.</sub>
-
-</div>
