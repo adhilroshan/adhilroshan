@@ -1,16 +1,10 @@
 <div align="center">
 
-# <a href="https://adhilroshan.in">Adhil Roshan</a>
-
-<a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Full+Stack+AI+Engineer;Autonomous+Agents+%26+Multi-Agent+Workflows;Web%2C+Mobile+(Flutter%2C+RN)+%26+Desktop+(Tauri);Taking+AI+from+Requirements+to+Production" alt="Typing SVG" />
+<a href="https://adhilroshan.in">
+  <img src="assets/header.svg" width="100%" alt="Adhil Roshan - Full Stack AI Engineer" />
 </a>
 
-<p align="center">
-  <b>Full Stack AI Engineer</b> &nbsp;•&nbsp; 
-  <b>Senior AI Engineer @ Cybroque Technologies</b> &nbsp;•&nbsp; 
-  <b>Autonomous Agents & Multi-Platform Systems</b>
-</p>
+<br/><br/>
 
 <p align="center">
   <a href="https://adhilroshan.in"><img src="https://img.shields.io/badge/Portfolio-adhilroshan.in-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>

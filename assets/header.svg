@@ -1,0 +1,127 @@
+<svg width="920" height="220" viewBox="0 0 920 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="card_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#090d13" />
+    </linearGradient>
+
+    <!-- Name Gradient -->
+    <linearGradient id="name_grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <!-- Accent Top Line Gradient -->
+    <linearGradient id="top_accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="transparent" />
+    </linearGradient>
+
+    <!-- Ambient Glows -->
+    <radialGradient id="cyan_glow" cx="20%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="purple_glow" cx="80%" cy="70%" r="60%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Dot Pattern -->
+    <pattern id="dot_pattern" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#30363d" fill-opacity="0.6" />
+    </pattern>
+  </defs>
+
+  <!-- Card Background -->
+  <rect x="1" y="1" width="918" height="218" rx="14" fill="url(#card_bg)" stroke="#30363d" stroke-width="1.2"/>
+  
+  <!-- Dot Grid Pattern Fill -->
+  <rect x="1" y="1" width="918" height="218" rx="14" fill="url(#dot_pattern)" />
+
+  <!-- Ambient Glow Overlays -->
+  <rect x="1" y="1" width="918" height="218" rx="14" fill="url(#cyan_glow)" />
+  <rect x="1" y="1" width="918" height="218" rx="14" fill="url(#purple_glow)" />
+
+  <!-- Top Accent Line -->
+  <rect x="24" y="1" width="280" height="2.5" rx="1.25" fill="url(#top_accent)" />
+
+  <!-- LEFT CONTENT -->
+  <!-- Status Badge -->
+  <g transform="translate(40, 32)">
+    <rect width="285" height="26" rx="13" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="14" cy="13" r="4" fill="#10b981" />
+    <circle cx="14" cy="13" r="7" fill="#10b981" fill-opacity="0.25" />
+    <text x="26" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="11" font-weight="600" fill="#93c5fd" letter-spacing="0.5">FULL STACK AI ENGINEER • SENIOR AI ENG</text>
+  </g>
+
+  <!-- Name -->
+  <text x="40" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="42" font-weight="800" fill="url(#name_grad)" letter-spacing="-0.5">Adhil Roshan</text>
+
+  <!-- Subtitle -->
+  <text x="40" y="144" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="15" font-weight="400" fill="#94a3b8">Architecting autonomous agents, multi-platform applications, and production AI systems.</text>
+
+  <!-- Highlights Pills -->
+  <g transform="translate(40, 168)">
+    <g transform="translate(0, 0)">
+      <rect width="112" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="56" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="11" font-weight="500" fill="#cbd5e1" text-anchor="middle">Autonomous Agents</text>
+    </g>
+    <g transform="translate(120, 0)">
+      <rect width="90" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="45" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="11" font-weight="500" fill="#cbd5e1" text-anchor="middle">Full-Stack Web</text>
+    </g>
+    <g transform="translate(218, 0)">
+      <rect width="138" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="69" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="11" font-weight="500" fill="#cbd5e1" text-anchor="middle">Mobile (Flutter • RN • Kotlin)</text>
+    </g>
+    <g transform="translate(364, 0)">
+      <rect width="120" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="60" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="11" font-weight="500" fill="#cbd5e1" text-anchor="middle">Desktop (Tauri • Electron)</text>
+    </g>
+    <g transform="translate(492, 0)">
+      <rect width="94" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="47" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="11" font-weight="500" fill="#cbd5e1" text-anchor="middle">Local-First AI</text>
+    </g>
+  </g>
+
+  <!-- RIGHT ARTWORK: Multi-Agent Neural Constellation -->
+  <g transform="translate(660, 20)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Connecting lines -->
+    <path d="M100 40 L160 80 M160 80 L190 140 M160 80 L100 130 M100 130 L40 100 M100 40 L40 100 M100 130 L120 180 M190 140 L120 180 M40 100 L60 170 M60 170 L120 180" stroke="#38bdf8" stroke-opacity="0.2" stroke-width="1.5" />
+    <path d="M100 40 L190 140 M40 100 L160 80" stroke="#818cf8" stroke-opacity="0.15" stroke-dasharray="3 3" stroke-width="1" />
+    
+    <!-- Outer Node: Central Orchestrator -->
+    <circle cx="160" cy="80" r="14" fill="#1e293b" stroke="#38bdf8" stroke-width="2" />
+    <circle cx="160" cy="80" r="5" fill="#38bdf8" />
+    <circle cx="160" cy="80" r="20" stroke="#38bdf8" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="2 4" />
+
+    <!-- Node 1: Top -->
+    <circle cx="100" cy="40" r="9" fill="#1e293b" stroke="#818cf8" stroke-width="1.5" />
+    <circle cx="100" cy="40" r="3.5" fill="#818cf8" />
+
+    <!-- Node 2: Left -->
+    <circle cx="40" cy="100" r="11" fill="#1e293b" stroke="#c084fc" stroke-width="1.5" />
+    <circle cx="40" cy="100" r="4" fill="#c084fc" />
+
+    <!-- Node 3: Center Mid -->
+    <circle cx="100" cy="130" r="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+    <circle cx="100" cy="130" r="3" fill="#38bdf8" />
+
+    <!-- Node 4: Right -->
+    <circle cx="190" cy="140" r="10" fill="#1e293b" stroke="#34d399" stroke-width="1.5" />
+    <circle cx="190" cy="140" r="3.5" fill="#34d399" />
+
+    <!-- Node 5: Bottom Left -->
+    <circle cx="60" cy="170" r="7" fill="#1e293b" stroke="#f472b6" stroke-width="1.5" />
+    <circle cx="60" cy="170" r="2.5" fill="#f472b6" />
+
+    <!-- Node 6: Bottom Right -->
+    <circle cx="120" cy="180" r="8" fill="#1e293b" stroke="#fbbf24" stroke-width="1.5" />
+    <circle cx="120" cy="180" r="3" fill="#fbbf24" />
+  </g>
+</svg>
