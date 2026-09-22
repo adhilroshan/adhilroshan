@@ -3,13 +3,13 @@
 # ⚡ Hi there, I'm <a href="https://adhilroshan.in">Adhil Roshan</a> 👋
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Full+Stack+AI+Engineer;Autonomous+Agents+%26+Multi-Agent+Workflows;TypeScript%2C+Python%2C+Next.js+%26+FastAPI;Taking+AI+from+Requirements+to+Production" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Full+Stack+AI+Engineer;Autonomous+Agents+%26+Multi-Agent+Workflows;Web%2C+Mobile+(Flutter%2C+RN)+%26+Desktop+(Tauri);Taking+AI+from+Requirements+to+Production" alt="Typing SVG" />
 </a>
 
 <p align="center">
   <b>Full Stack AI Engineer</b> &nbsp;•&nbsp; 
   <b>Senior AI Engineer @ Cybroque Technologies</b> &nbsp;•&nbsp; 
-  <b>Autonomous Agents & LLM Systems</b>
+  <b>Autonomous Agents & Multi-Platform Systems</b>
 </p>
 
 <p align="center">
@@ -30,13 +30,14 @@
 
 ### 🚀 What I Do & Build
 
-Full Stack AI Engineer who takes AI-powered solutions from customer requirements to production deployment — scoping integrations, configuring LLM-based systems, and building resilient full-stack architectures across **TypeScript**, **Python**, **Next.js**, and **FastAPI**.
+Full Stack AI Engineer who takes AI-powered solutions from customer requirements to production deployment — scoping integrations, configuring LLM-based systems, and building resilient multi-platform architectures across **Web**, **Mobile**, and **Desktop**.
 
 - 🤖 **Autonomous Agents & Agentic Workflows:** Architecting multi-agent coordination systems, autonomous computer-use agents (*"AI that can run your computer"* at BeSuperHuman.Ai), role-tailored AI companions, and dynamic classroom generation tools.
 - 🎙️ **Production AI Solutions & Multimodal:** Deploying production voice support agents with ElevenLabs, automated conversational systems on WhatsApp, and custom AI integrations with AWS Bedrock, CrewAI, LangChain, and Mastra AI.
+- 🌐 **Modern Web & Full-Stack:** Deeply versed across the modern JavaScript/TypeScript ecosystem (React, Next.js, Node.js, Express, NestJS, and rich JS/TS libraries) alongside Python (FastAPI, Django).
+- 📱 **Cross-Platform & Native Mobile:** Engineering fluid, high-performance mobile apps across **Flutter**, **React Native**, and native **Kotlin** (e.g. AI-driven dynamic widget renderers).
+- 💻 **Desktop & Native DevTools:** Building fast, lightweight desktop applications with **Tauri**, **Electron**, and **Electrobun**.
 - 🔒 **Local-First & Privacy-Focused Tools:** Engineering on-device developer utilities like [`onloq`](https://github.com/adhilroshan/onloq) (local activity & code change logger with Ollama AI summarization) and [`resumix`](https://github.com/adhilroshan/resumix).
-- ⚡ **Full-Stack Engineering & DevTools:** Crafting modern web platforms with React 19, Next.js, Node.js, and browser extensions like [`excalihub`](https://github.com/adhilroshan/excalihub).
-- 🎮 **Tinkering for Fun:** Experimenting with mobile apps in Flutter/Dart and systems hacking in Rust when exploring new ideas.
 
 ---
 
@@ -88,23 +89,30 @@ Full Stack AI Engineer who takes AI-powered solutions from customer requirements
 <div align="center">
 
 <p>
-  <b>Languages & Full-Stack Core</b><br/>
+  <b>Languages & Core</b><br/>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,py,nodejs,react,nextjs,tailwind,fastapi,django,java" alt="Languages & Full Stack Core" />
+    <img src="https://skillicons.dev/icons?i=ts,js,py,rust,kotlin,dart,java,go,cpp" alt="Languages & Core" />
   </a>
 </p>
 
 <p>
-  <b>AI, Agents & Data Stack</b><br/>
+  <b>Web & Full-Stack Ecosystem</b><br/>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,tailwind,fastapi,django,bun" alt="Web & Full-Stack" />
+  </a>
+</p>
+
+<p>
+  <b>Mobile & Desktop Platforms</b><br/>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=flutter,react,kotlin,tauri,electron" alt="Mobile & Desktop Platforms" />
+  </a>
+</p>
+
+<p>
+  <b>AI, Data & Cloud Stack</b><br/>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=pytorch,postgres,mongodb,redis,sqlite,docker,kubernetes,aws,gcp" alt="AI, Data & Cloud Stack" />
-  </a>
-</p>
-
-<p>
-  <b>Explored & Built For Fun</b><br/>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=flutter,dart,rust,tauri,go,cpp" alt="Explored For Fun" />
   </a>
 </p>
 
