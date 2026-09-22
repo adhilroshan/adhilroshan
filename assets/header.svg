@@ -1,78 +1,96 @@
-<svg width="920" height="180" viewBox="0 0 920 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="920" height="190" viewBox="0 0 920 190" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg_grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117" />
-      <stop offset="100%" stop-color="#080b0f" />
+    <!-- Background Gradient: Deep Obsidian with subtle top-to-bottom falloff -->
+    <linearGradient id="card_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#11161d" />
+      <stop offset="100%" stop-color="#0a0d12" />
     </linearGradient>
-    <linearGradient id="hairline" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#30363d" />
-      <stop offset="30%" stop-color="#58a6ff" stop-opacity="0.6" />
-      <stop offset="70%" stop-color="#30363d" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#21262d" />
+
+    <!-- Specular Edge Highlight: Simulates directional overhead light catching the bezel -->
+    <linearGradient id="specular_bezel" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.1" />
+      <stop offset="20%" stop-color="#ffffff" stop-opacity="0.22" />
+      <stop offset="50%" stop-color="#388bfd" stop-opacity="0.35" />
+      <stop offset="80%" stop-color="#ffffff" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05" />
     </linearGradient>
+
+    <!-- Subtle Soft Radial Luminance behind name -->
+    <radialGradient id="soft_glow" cx="25%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.07" />
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0" />
+    </radialGradient>
   </defs>
 
-  <!-- Frame Background -->
-  <rect x="1" y="1" width="918" height="178" rx="10" fill="url(#bg_grad)" stroke="#30363d" stroke-width="1"/>
-  <line x1="1" y1="1" x2="919" y2="1" stroke="url(#hairline)" stroke-width="1.5" />
+  <!-- Outer Bezel / Base Card -->
+  <rect x="1" y="1" width="918" height="188" rx="12" fill="url(#card_bg)" stroke="#262c36" stroke-width="1"/>
+  
+  <!-- Subtle Soft Luminance -->
+  <rect x="1" y="1" width="918" height="188" rx="12" fill="url(#soft_glow)" />
 
-  <!-- LEFT COLUMN: Identity & Bio -->
-  <g transform="translate(36, 28)">
-    <!-- Monospace Eyebrow -->
-    <text x="0" y="12" font-family="ui-monospace, 'SFMono-Regular', 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="500" fill="#7d8590" letter-spacing="1.2">// FULL-STACK AI ENGINEER • SENIOR AI ENG</text>
-    
-    <!-- Name -->
-    <text x="0" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="36" font-weight="700" fill="#f0f6fc" letter-spacing="-0.5">Adhil Roshan</text>
+  <!-- Top Specular Bezel Line (Optical crispness) -->
+  <path d="M12 1H908" stroke="url(#specular_bezel)" stroke-width="1.2" stroke-linecap="round" />
 
-    <!-- Tagline -->
-    <text x="0" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13.5" font-weight="400" fill="#8b949e">Architecting autonomous agent workflows, local-first intelligence, and multi-platform systems.</text>
+  <!-- LEFT PANE: Identity & System Focus -->
+  <g transform="translate(38, 30)">
+    <!-- Status Eyebrow with Live Green Dot -->
+    <g transform="translate(0, 0)">
+      <circle cx="4" cy="7" r="3" fill="#238636" />
+      <circle cx="4" cy="7" r="6" fill="#238636" fill-opacity="0.2" />
+      <text x="16" y="10.5" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" font-weight="600" fill="#7d8590" letter-spacing="1">FULL-STACK AI ENGINEER • SENIOR AI ENG</text>
+    </g>
 
-    <!-- Focus Tags -->
-    <g transform="translate(0, 108)">
-      <rect x="0" y="0" width="86" height="20" rx="3" fill="#161b22" stroke="#21262d"/>
-      <text x="43" y="14" font-family="ui-monospace, monospace" font-size="10" fill="#7d8590" text-anchor="middle">TypeScript</text>
+    <!-- Primary Title / Name -->
+    <text x="0" y="54" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, sans-serif" font-size="36" font-weight="700" fill="#f0f6fc" letter-spacing="-0.6">Adhil Roshan</text>
 
-      <rect x="94" y="0" width="64" height="20" rx="3" fill="#161b22" stroke="#21262d"/>
-      <text x="126" y="14" font-family="ui-monospace, monospace" font-size="10" fill="#7d8590" text-anchor="middle">Python</text>
+    <!-- Subtitle / Value Proposition -->
+    <text x="0" y="84" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="13.5" font-weight="400" fill="#8b949e" letter-spacing="-0.1">Architecting autonomous agent workflows, local-first intelligence, and multi-platform systems.</text>
 
-      <rect x="166" y="0" width="70" height="20" rx="3" fill="#161b22" stroke="#21262d"/>
-      <text x="201" y="14" font-family="ui-monospace, monospace" font-size="10" fill="#7d8590" text-anchor="middle">PyTorch</text>
+    <!-- Stack Micro-Pills -->
+    <g transform="translate(0, 110)">
+      <rect x="0" y="0" width="86" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
+      <text x="43" y="15" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#8b949e" text-anchor="middle">TypeScript</text>
 
-      <rect x="244" y="0" width="64" height="20" rx="3" fill="#161b22" stroke="#21262d"/>
-      <text x="276" y="14" font-family="ui-monospace, monospace" font-size="10" fill="#7d8590" text-anchor="middle">Flutter</text>
+      <rect x="92" y="0" width="66" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
+      <text x="125" y="15" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#8b949e" text-anchor="middle">Python</text>
 
-      <rect x="316" y="0" width="58" height="20" rx="3" fill="#161b22" stroke="#21262d"/>
-      <text x="345" y="14" font-family="ui-monospace, monospace" font-size="10" fill="#7d8590" text-anchor="middle">Tauri</text>
+      <rect x="164" y="0" width="70" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
+      <text x="199" y="15" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#8b949e" text-anchor="middle">PyTorch</text>
 
-      <rect x="382" y="0" width="84" height="20" rx="3" fill="#161b22" stroke="#21262d"/>
-      <text x="424" y="14" font-family="ui-monospace, monospace" font-size="10" fill="#7d8590" text-anchor="middle">Agentic AI</text>
+      <rect x="240" y="0" width="66" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
+      <text x="273" y="15" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#8b949e" text-anchor="middle">Flutter</text>
+
+      <rect x="312" y="0" width="60" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
+      <text x="342" y="15" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#8b949e" text-anchor="middle">Tauri</text>
+
+      <rect x="378" y="0" width="88" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
+      <text x="422" y="15" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#8b949e" text-anchor="middle">Agentic AI</text>
     </g>
   </g>
 
-  <!-- RIGHT COLUMN: Engineering Telemetry Box -->
-  <g transform="translate(605, 26)">
-    <rect width="280" height="126" rx="6" fill="#090d13" stroke="#21262d" stroke-width="1"/>
+  <!-- RIGHT PANE: Precision Engineering Console -->
+  <g transform="translate(596, 28)">
+    <rect width="286" height="132" rx="8" fill="#080b0f" stroke="#21262d" stroke-width="1"/>
     
-    <!-- Window Bar -->
-    <path d="M0 6C0 2.68629 2.68629 0 6 0H274C277.314 0 280 2.68629 280 6V24H0V6Z" fill="#161b22"/>
-    <line x1="0" y1="24" x2="280" y2="24" stroke="#21262d" stroke-width="1"/>
+    <!-- Console Header Bar -->
+    <path d="M0 8C0 3.58172 3.58172 0 8 0H278C282.418 0 286 3.58172 286 8V26H0V8Z" fill="#13171f"/>
+    <line x1="0" y1="26" x2="286" y2="26" stroke="#21262d" stroke-width="1"/>
     
-    <!-- Indicator Dots -->
-    <circle cx="14" cy="12" r="3.5" fill="#30363d" />
-    <circle cx="24" cy="12" r="3.5" fill="#30363d" />
-    <circle cx="34" cy="12" r="3.5" fill="#30363d" />
+    <!-- Window Controls -->
+    <circle cx="14" cy="13" r="3.5" fill="#30363d" />
+    <circle cx="25" cy="13" r="3.5" fill="#30363d" />
+    <circle cx="36" cy="13" r="3.5" fill="#30363d" />
 
-    <!-- Title in Window Bar -->
-    <text x="50" y="15" font-family="ui-monospace, monospace" font-size="9.5" fill="#7d8590" letter-spacing="0.5">SYSTEM_PROFILE // v2026.09</text>
+    <!-- Terminal Title -->
+    <text x="52" y="16.5" font-family="ui-monospace, monospace" font-size="9.5" fill="#7d8590" letter-spacing="0.5">SYSTEM_KERNEL // v2026.09</text>
     
-    <!-- Status Green Pulse -->
-    <circle cx="256" cy="12" r="3" fill="#238636" />
-    <text x="246" y="15" font-family="ui-monospace, monospace" font-size="9" fill="#3fb950" text-anchor="end">ACTIVE</text>
+    <!-- Status -->
+    <text x="272" y="16.5" font-family="ui-monospace, monospace" font-size="9" font-weight="600" fill="#3fb950" text-anchor="end">ONLINE</text>
 
-    <!-- Console Specs -->
-    <text x="16" y="46" font-family="ui-monospace, monospace" font-size="10.5" fill="#7d8590">ROLE    <tspan fill="#c9d1d9">: Senior AI Engineer</tspan></text>
-    <text x="16" y="66" font-family="ui-monospace, monospace" font-size="10.5" fill="#7d8590">FOCUS   <tspan fill="#c9d1d9">: Autonomous Agents &amp; Workflows</tspan></text>
-    <text x="16" y="86" font-family="ui-monospace, monospace" font-size="10.5" fill="#7d8590">LOCAL   <tspan fill="#c9d1d9">: On-Device LLM &amp; RAG Systems</tspan></text>
-    <text x="16" y="106" font-family="ui-monospace, monospace" font-size="10.5" fill="#7d8590">OUTPUT  <tspan fill="#58a6ff">: Production-Grade Software</tspan></text>
+    <!-- Specifications with optical alignment -->
+    <text x="16" y="49" font-family="ui-monospace, monospace" font-size="10.5" fill="#7d8590">ROLE    <tspan fill="#e6edf3">: Senior AI Engineer</tspan></text>
+    <text x="16" y="70" font-family="ui-monospace, monospace" font-size="10.5" fill="#7d8590">CORE    <tspan fill="#e6edf3">: Autonomous Agent Systems</tspan></text>
+    <text x="16" y="91" font-family="ui-monospace, monospace" font-size="10.5" fill="#7d8590">MODELS  <tspan fill="#e6edf3">: Dynamic Inference &amp; RAG</tspan></text>
+    <text x="16" y="112" font-family="ui-monospace, monospace" font-size="10.5" fill="#7d8590">DEPLOY  <tspan fill="#58a6ff">: Web • Mobile • Native</tspan></text>
   </g>
 </svg>

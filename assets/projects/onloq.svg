@@ -1,44 +1,62 @@
-<svg width="470" height="165" viewBox="0 0 470 165" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Card Background: Deep Obsidian -->
-  <rect x="1" y="1" width="468" height="163" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
-  
-  <!-- Subtle Top Hairline Highlight -->
-  <line x1="1" y1="1" x2="469" y2="1" stroke="#21262d" stroke-width="1" />
+<svg width="470" height="168" viewBox="0 0 470 168" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient: Subtle vertical falloff for tactile depth -->
+    <linearGradient id="card_bg_onloq" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#11161d" />
+      <stop offset="100%" stop-color="#0a0d12" />
+    </linearGradient>
+    <!-- Top Bezel Highlight: Simulates directional overhead lighting -->
+    <linearGradient id="card_bezel_onloq" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.05" />
+      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.15" />
+      <stop offset="70%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03" />
+    </linearGradient>
+  </defs>
 
-  <!-- Header: Icon & Title -->
-  <g transform="translate(20, 20)">
-    <!-- Icon Container -->
-    <rect x="0" y="0" width="30" height="30" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15v-4H8l5-7v4h3l-5 7z" fill="#c9d1d9" transform="translate(3, 3) scale(1)"/>
+  <!-- Card Base with crisp 1px neutral stroke -->
+  <rect x="1" y="1" width="468" height="166" rx="10" fill="url(#card_bg_onloq)" stroke="#262c36" stroke-width="1"/>
+  
+  <!-- Top Specular Highlight Line (Physical polish) -->
+  <path d="M10 1H460" stroke="url(#card_bezel_onloq)" stroke-width="1" stroke-linecap="round" />
+
+  <!-- Header: Icon, Title & Interactive Indicator -->
+  <g transform="translate(22, 20)">
+    <!-- Icon Container with subtle inset and stroke -->
+    <rect x="0" y="0" width="32" height="32" rx="7" fill="#161b22" stroke="#2d333b" stroke-width="1"/>
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15v-4H8l5-7v4h3l-5 7z" fill="#c9d1d9" transform="translate(4, 4) scale(1)"/>
     
     <!-- Title -->
-    <text x="40" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="17" font-weight="600" fill="#f0f6fc">onloq</text>
+    <text x="42" y="21" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, sans-serif" font-size="17" font-weight="600" fill="#f0f6fc" letter-spacing="-0.2">onloq</text>
+    
+    <!-- Subtle External Link Chevron Indicator -->
+    <path d="M88 12L93 7M93 7H89M93 7V11" stroke="#484f58" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
   <!-- Badge Pill -->
-  <g transform="translate(339.0, 22)">
-    <rect x="0" y="0" width="109.0" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <text x="54.5" y="14.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="10.5" font-weight="500" fill="#8b949e" text-anchor="middle">Local-First AI</text>
+  <g transform="translate(340.4, 23)">
+    <rect x="0" y="0" width="107.6" height="22" rx="11" fill="#161b22" stroke="#2d333b" stroke-width="1"/>
+    <text x="53.8" y="14.5" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="10.5" font-weight="500" fill="#8b949e" text-anchor="middle">Local-First AI</text>
   </g>
 
-  <!-- Description -->
-  <text x="22" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#8b949e" letter-spacing="-0.1">Privacy-first local activity &amp; code change logger with on-device</text>
-  <text x="22" y="97" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#8b949e" letter-spacing="-0.1">Ollama summarization to generate daily developer worklogs.</text>
+  <!-- Description with optical tracking and leading -->
+  <text x="24" y="80" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#8b949e" letter-spacing="-0.1">Privacy-first local activity &amp; code change logger with on-device</text>
+  <text x="24" y="99" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#8b949e" letter-spacing="-0.1">Ollama summarization to generate daily developer worklogs.</text>
 
   <!-- Tags -->
-  <g transform="translate(22, 122)">
+  <g transform="translate(24, 125)">
     <g transform="translate(0, 0)">
-      <rect width="61.2" height="22" rx="4" fill="#161b22" stroke="#21262d" stroke-width="1"/>
-      <text x="30.6" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">Python</text>
-    </g><g transform="translate(69.2, 0)">
-      <rect width="61.2" height="22" rx="4" fill="#161b22" stroke="#21262d" stroke-width="1"/>
-      <text x="30.6" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">Ollama</text>
-    </g><g transform="translate(138.4, 0)">
-      <rect width="61.2" height="22" rx="4" fill="#161b22" stroke="#21262d" stroke-width="1"/>
-      <text x="30.6" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">SQLite</text>
-    </g><g transform="translate(207.60000000000002, 0)">
-      <rect width="54.0" height="22" rx="4" fill="#161b22" stroke="#21262d" stroke-width="1"/>
-      <text x="27.0" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">Typer</text>
+      <rect width="60.6" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
+      <text x="30.3" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">Python</text>
+    </g><g transform="translate(67.6, 0)">
+      <rect width="60.6" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
+      <text x="30.3" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">Ollama</text>
+    </g><g transform="translate(135.2, 0)">
+      <rect width="60.6" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
+      <text x="30.3" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">SQLite</text>
+    </g><g transform="translate(202.79999999999998, 0)">
+      <rect width="53.5" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
+      <text x="26.8" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">Typer</text>
     </g>
   </g>
 </svg>

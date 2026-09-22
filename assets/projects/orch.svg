@@ -1,44 +1,62 @@
-<svg width="470" height="165" viewBox="0 0 470 165" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Card Background: Deep Obsidian -->
-  <rect x="1" y="1" width="468" height="163" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
-  
-  <!-- Subtle Top Hairline Highlight -->
-  <line x1="1" y1="1" x2="469" y2="1" stroke="#21262d" stroke-width="1" />
+<svg width="470" height="168" viewBox="0 0 470 168" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient: Subtle vertical falloff for tactile depth -->
+    <linearGradient id="card_bg_orch" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#11161d" />
+      <stop offset="100%" stop-color="#0a0d12" />
+    </linearGradient>
+    <!-- Top Bezel Highlight: Simulates directional overhead lighting -->
+    <linearGradient id="card_bezel_orch" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.05" />
+      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.15" />
+      <stop offset="70%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03" />
+    </linearGradient>
+  </defs>
 
-  <!-- Header: Icon & Title -->
-  <g transform="translate(20, 20)">
-    <!-- Icon Container -->
-    <rect x="0" y="0" width="30" height="30" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 14.93V17a1 1 0 11-2 0v-.07A8.001 8.001 0 014.07 11H5a1 1 0 110-2h-.93A8.001 8.001 0 0111 4.07V5a1 1 0 112 0v-.93A8.001 8.001 0 0119.93 9H19a1 1 0 110 2h.93A8.001 8.001 0 0113 16.93zM12 8a4 4 0 100 8 4 4 0 000-8z" fill="#c9d1d9" transform="translate(3, 3) scale(1)"/>
+  <!-- Card Base with crisp 1px neutral stroke -->
+  <rect x="1" y="1" width="468" height="166" rx="10" fill="url(#card_bg_orch)" stroke="#262c36" stroke-width="1"/>
+  
+  <!-- Top Specular Highlight Line (Physical polish) -->
+  <path d="M10 1H460" stroke="url(#card_bezel_orch)" stroke-width="1" stroke-linecap="round" />
+
+  <!-- Header: Icon, Title & Interactive Indicator -->
+  <g transform="translate(22, 20)">
+    <!-- Icon Container with subtle inset and stroke -->
+    <rect x="0" y="0" width="32" height="32" rx="7" fill="#161b22" stroke="#2d333b" stroke-width="1"/>
+    <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 14.93V17a1 1 0 11-2 0v-.07A8.001 8.001 0 014.07 11H5a1 1 0 110-2h-.93A8.001 8.001 0 0111 4.07V5a1 1 0 112 0v-.93A8.001 8.001 0 0119.93 9H19a1 1 0 110 2h.93A8.001 8.001 0 0113 16.93zM12 8a4 4 0 100 8 4 4 0 000-8z" fill="#c9d1d9" transform="translate(4, 4) scale(1)"/>
     
     <!-- Title -->
-    <text x="40" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="17" font-weight="600" fill="#f0f6fc">orch</text>
+    <text x="42" y="21" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, sans-serif" font-size="17" font-weight="600" fill="#f0f6fc" letter-spacing="-0.2">orch</text>
+    
+    <!-- Subtle External Link Chevron Indicator -->
+    <path d="M88 12L93 7M93 7H89M93 7V11" stroke="#484f58" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
   <!-- Badge Pill -->
-  <g transform="translate(306.5, 22)">
-    <rect x="0" y="0" width="141.5" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <text x="70.8" y="14.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="10.5" font-weight="500" fill="#8b949e" text-anchor="middle">Agent Orchestration</text>
+  <g transform="translate(308.4, 23)">
+    <rect x="0" y="0" width="139.6" height="22" rx="11" fill="#161b22" stroke="#2d333b" stroke-width="1"/>
+    <text x="69.8" y="14.5" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="10.5" font-weight="500" fill="#8b949e" text-anchor="middle">Agent Orchestration</text>
   </g>
 
-  <!-- Description -->
-  <text x="22" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#8b949e" letter-spacing="-0.1">Multi-agent task orchestration framework for concurrent workflows,</text>
-  <text x="22" y="97" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#8b949e" letter-spacing="-0.1">structured project decomposition, and parallel agent execution.</text>
+  <!-- Description with optical tracking and leading -->
+  <text x="24" y="80" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#8b949e" letter-spacing="-0.1">Multi-agent task orchestration framework for concurrent workflows,</text>
+  <text x="24" y="99" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Inter, sans-serif" font-size="12.5" fill="#8b949e" letter-spacing="-0.1">structured project decomposition, and parallel agent execution.</text>
 
   <!-- Tags -->
-  <g transform="translate(22, 122)">
+  <g transform="translate(24, 125)">
     <g transform="translate(0, 0)">
-      <rect width="90.0" height="22" rx="4" fill="#161b22" stroke="#21262d" stroke-width="1"/>
-      <text x="45.0" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">JavaScript</text>
-    </g><g transform="translate(98.0, 0)">
-      <rect width="68.4" height="22" rx="4" fill="#161b22" stroke="#21262d" stroke-width="1"/>
-      <text x="34.2" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">Node.js</text>
-    </g><g transform="translate(174.4, 0)">
-      <rect width="82.8" height="22" rx="4" fill="#161b22" stroke="#21262d" stroke-width="1"/>
-      <text x="41.4" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">AI Agents</text>
-    </g><g transform="translate(265.2, 0)">
-      <rect width="90.0" height="22" rx="4" fill="#161b22" stroke="#21262d" stroke-width="1"/>
-      <text x="45.0" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">Automation</text>
+      <rect width="89.0" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
+      <text x="44.5" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">JavaScript</text>
+    </g><g transform="translate(96.0, 0)">
+      <rect width="67.7" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
+      <text x="33.8" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">Node.js</text>
+    </g><g transform="translate(170.7, 0)">
+      <rect width="81.9" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
+      <text x="41.0" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">AI Agents</text>
+    </g><g transform="translate(259.6, 0)">
+      <rect width="89.0" height="22" rx="4" fill="#161b22" stroke="#262c36" stroke-width="1"/>
+      <text x="44.5" y="14.5" font-family="ui-monospace, monospace" font-size="10.5" font-weight="500" fill="#7d8590" text-anchor="middle">Automation</text>
     </g>
   </g>
 </svg>
