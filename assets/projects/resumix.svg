@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 135" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 230" width="100%" height="100%">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#12171f"/>
       <stop offset="100%" stop-color="#0a0d12"/>
     </linearGradient>
     <linearGradient id="bezel" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
     </linearGradient>
     <linearGradient id="icon_bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -15,36 +15,42 @@
   </defs>
 
   <!-- Card Background -->
-  <rect x="1" y="1" width="718" height="133" rx="10" fill="url(#bg)" stroke="#262c36" stroke-width="1"/>
-  <rect x="2" y="2" width="716" height="1" rx="0.5" fill="url(#bezel)"/>
+  <rect x="1" y="1" width="678" height="228" rx="14" fill="url(#bg)" stroke="#262c36" stroke-width="1"/>
+  <rect x="2" y="2" width="676" height="1" rx="0.5" fill="url(#bezel)"/>
 
-  <!-- Icon Container -->
-  <rect x="20" y="20" width="44" height="44" rx="10" fill="url(#icon_bg)" stroke="#30363d" stroke-width="1"/>
-  <!-- Document / AI Resume Icon -->
-  <path d="M33 30 L45 30 L51 36 L51 54 L33 54 Z M45 30 L45 36 L51 36 M38 42 L46 42 M38 47 L44 47" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Row 1: Header -->
+  <rect x="24" y="24" width="48" height="48" rx="12" fill="url(#icon_bg)" stroke="#30363d" stroke-width="1"/>
+  <path d="M37 36 L49 36 L55 42 L55 60 L37 60 Z M49 36 L49 42 L55 42 M42 48 L50 48 M42 53 L48 53" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <!-- Title & Meta -->
-  <text x="78" y="47" fill="#f0f6fc" font-size="20" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">resumix</text>
-  
+  <!-- Title & Category -->
+  <text x="86" y="47" fill="#f0f6fc" font-size="22" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">resumix</text>
+  <text x="86" y="66" fill="#8b949e" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" letter-spacing="0.8">MACHINE LEARNING</text>
+
   <!-- Right Badge -->
-  <rect x="548" y="26" width="128" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-  <text x="612" y="42" fill="#7ee787" font-size="10" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" letter-spacing="0.8" text-anchor="middle">RESUME AI ENGINE</text>
+  <rect x="472" y="28" width="144" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="544" y="45" fill="#7ee787" font-size="10.5" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" letter-spacing="0.8" text-anchor="middle">RESUME AI ENGINE</text>
 
   <!-- Chevron -->
-  <path d="M688 38 L694 38 L694 44 M694 38 L687 45" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M638 36 L646 36 L646 44 M646 36 L637 45" fill="none" stroke="#58a6ff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <!-- Description -->
-  <text x="78" y="78" fill="#8b949e" font-size="14" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">AI-powered resume optimization engine with semantic ATS matching</text>
+  <!-- Row 2: Description -->
+  <text x="24" y="112" fill="#c9d1d9" font-size="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">AI-powered resume optimization engine with semantic ATS matching,</text>
+  <text x="24" y="136" fill="#8b949e" font-size="14" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">analyzing job descriptions to deliver targeted keyword and structural score.</text>
 
-  <!-- Tags -->
-  <g transform="translate(78, 96)">
-    <rect x="0" y="0" width="68" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <text x="34" y="16" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">Python</text>
+  <!-- Row 3: Divider & Tags -->
+  <line x1="24" y1="162" x2="656" y2="162" stroke="#21262d" stroke-width="1"/>
 
-    <rect x="76" y="0" width="68" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <text x="110" y="16" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">FastAPI</text>
+  <g transform="translate(24, 178)">
+    <rect x="0" y="0" width="76" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="38" y="18" fill="#c9d1d9" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">Python</text>
 
-    <rect x="152" y="0" width="92" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <text x="198" y="16" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">Embeddings</text>
+    <rect x="86" y="0" width="76" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="124" y="18" fill="#c9d1d9" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">FastAPI</text>
+
+    <rect x="172" y="0" width="102" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="223" y="18" fill="#c9d1d9" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">Embeddings</text>
+
+    <rect x="284" y="0" width="60" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="314" y="18" fill="#c9d1d9" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">NLP</text>
   </g>
 </svg>

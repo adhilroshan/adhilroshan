@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 135" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 230" width="100%" height="100%">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#12171f"/>
       <stop offset="100%" stop-color="#0a0d12"/>
     </linearGradient>
     <linearGradient id="bezel" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
     </linearGradient>
     <linearGradient id="icon_bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -15,36 +15,42 @@
   </defs>
 
   <!-- Card Background -->
-  <rect x="1" y="1" width="718" height="133" rx="10" fill="url(#bg)" stroke="#262c36" stroke-width="1"/>
-  <rect x="2" y="2" width="716" height="1" rx="0.5" fill="url(#bezel)"/>
+  <rect x="1" y="1" width="678" height="228" rx="14" fill="url(#bg)" stroke="#262c36" stroke-width="1"/>
+  <rect x="2" y="2" width="676" height="1" rx="0.5" fill="url(#bezel)"/>
 
-  <!-- Icon Container -->
-  <rect x="20" y="20" width="44" height="44" rx="10" fill="url(#icon_bg)" stroke="#30363d" stroke-width="1"/>
-  <!-- Sparkle / Compiler Icon -->
-  <path d="M42 30 L45 38 L53 42 L45 46 L42 54 L39 46 L31 42 L39 38 Z" fill="#58a6ff"/>
+  <!-- Row 1: Header -->
+  <rect x="24" y="24" width="48" height="48" rx="12" fill="url(#icon_bg)" stroke="#30363d" stroke-width="1"/>
+  <path d="M48 34 L51 43 L60 48 L51 53 L48 62 L45 53 L36 48 L45 43 Z" fill="#58a6ff"/>
 
-  <!-- Title & Meta -->
-  <text x="78" y="47" fill="#f0f6fc" font-size="20" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">hope-nl</text>
-  
+  <!-- Title & Category -->
+  <text x="86" y="47" fill="#f0f6fc" font-size="22" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">hope-nl</text>
+  <text x="86" y="66" fill="#8b949e" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" letter-spacing="0.8">SYNTAX &amp; AUTOMATION</text>
+
   <!-- Right Badge -->
-  <rect x="548" y="26" width="128" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-  <text x="612" y="42" fill="#7ee787" font-size="10" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" letter-spacing="0.8" text-anchor="middle">NLP COMPILER</text>
+  <rect x="472" y="28" width="144" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="544" y="45" fill="#7ee787" font-size="10.5" font-weight="600" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" letter-spacing="0.8" text-anchor="middle">NLP COMPILER</text>
 
   <!-- Chevron -->
-  <path d="M688 38 L694 38 L694 44 M694 38 L687 45" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M638 36 L646 36 L646 44 M646 36 L637 45" fill="none" stroke="#58a6ff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <!-- Description -->
-  <text x="78" y="78" fill="#8b949e" font-size="14" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">Natural language compiler transforming human intent into executable scripts</text>
+  <!-- Row 2: Description -->
+  <text x="24" y="112" fill="#c9d1d9" font-size="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">Natural language compiler transforming human intent into executable scripts,</text>
+  <text x="24" y="136" fill="#8b949e" font-size="14" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">bridging conversational instructions with deterministic AST tree generation.</text>
 
-  <!-- Tags -->
-  <g transform="translate(78, 96)">
-    <rect x="0" y="0" width="68" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <text x="34" y="16" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">Python</text>
+  <!-- Row 3: Divider & Tags -->
+  <line x1="24" y1="162" x2="656" y2="162" stroke="#21262d" stroke-width="1"/>
 
-    <rect x="76" y="0" width="56" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <text x="104" y="16" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">LLM</text>
+  <g transform="translate(24, 178)">
+    <rect x="0" y="0" width="76" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="38" y="18" fill="#c9d1d9" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">Python</text>
 
-    <rect x="140" y="0" width="54" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <text x="167" y="16" fill="#c9d1d9" font-size="11.5" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">AST</text>
+    <rect x="86" y="0" width="62" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="117" y="18" fill="#c9d1d9" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">LLM</text>
+
+    <rect x="158" y="0" width="60" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="188" y="18" fill="#c9d1d9" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">AST</text>
+
+    <rect x="228" y="0" width="104" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="280" y="18" fill="#c9d1d9" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" text-anchor="middle">Automation</text>
   </g>
 </svg>
