@@ -1,15 +1,22 @@
 <div align="center">
 
-# ⚡ Hi there, I'm <a href="https://adhilroshan.me">Adhil Roshan</a>
+# ⚡ Hi there, I'm <a href="https://adhil.site">Adhil Roshan</a> 👋
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=TypeScript+%26+Python+Engineer;Autonomous+AI+%26+Multi-Agent+Orchestration;Local-First+%26+Privacy-Focused+Software;Building+with+Rust+%26+Flutter+for+fun" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Full+Stack+AI+Engineer;Autonomous+Agents+%26+Multi-Agent+Workflows;TypeScript%2C+Python%2C+Next.js+%26+FastAPI;Taking+AI+from+Requirements+to+Production" alt="Typing SVG" />
 </a>
 
 <p align="center">
-  <a href="https://adhilroshan.me"><img src="https://img.shields.io/badge/Website-adhilroshan.me-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
-  <a href="https://twitter.com/adhilroshann"><img src="https://img.shields.io/badge/Twitter-@adhilroshann-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="Twitter" /></a>
+  <b>Full Stack AI Engineer</b> &nbsp;•&nbsp; 
+  <b>Senior AI Engineer @ Cybroque Technologies</b> &nbsp;•&nbsp; 
+  <b>Autonomous Agents & LLM Systems</b>
+</p>
+
+<p align="center">
+  <a href="https://adhil.site"><img src="https://img.shields.io/badge/Portfolio-adhil.site-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/adhilroshan/"><img src="https://img.shields.io/badge/LinkedIn-adhilroshan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://twitter.com/adhilroshann"><img src="https://img.shields.io/badge/Twitter-@adhilroshann-1DA1F2?style=for-the-badge&logo=x&logoColor=white" alt="Twitter" /></a>
+  <a href="mailto:adhilchra@gmail.com"><img src="https://img.shields.io/badge/Email-adhilchra@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://t.me/adhil_roshan"><img src="https://img.shields.io/badge/Telegram-@adhil__roshan-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
 </p>
 
@@ -21,17 +28,19 @@
 
 ---
 
-### 🚀 What I Build & Research
+### 🚀 What I Do & Build
 
-- 🤖 **Agentic Infrastructure & Orchestration (JS/TS):** Designing frameworks that coordinate AI agents, parallel workflows, and execution environments ([`orch`](https://github.com/adhilroshan/orch)).
-- 🧠 **Machine Learning, LLM Internals & Research (Python):** Exploring non-standard architectures like Nested Learning ([`hope-nl`](https://github.com/adhilroshan/hope-nl) — LLMs that rewrite their own weights dynamically), fine-tuning models, and Reinforcement Learning.
-- 🔒 **Local-First & Privacy-Focused Tools (Python & TS):** Building software that respects privacy and runs on-device, like [`onloq`](https://github.com/adhilroshan/onloq) (local activity & code logger with Ollama AI summarization) and [`resumix`](https://github.com/adhilroshan/resumix).
-- 🛠️ **Developer Ergonomics & Browser Tools (TS/JS):** Creating utilities and extensions that streamline daily workflows, such as [`gitdesk`](https://github.com/adhilroshan/gitdesk) and [`excalihub`](https://github.com/adhilroshan/excalihub).
+Full Stack AI Engineer who takes AI-powered solutions from customer requirements to production deployment — scoping integrations, configuring LLM-based systems, and building resilient full-stack architectures across **TypeScript**, **Python**, **Next.js**, and **FastAPI**.
+
+- 🤖 **Autonomous Agents & Agentic Workflows:** Architecting multi-agent coordination systems, autonomous computer-use agents (*"AI that can run your computer"* at BeSuperHuman.Ai), role-tailored AI companions, and dynamic classroom generation tools.
+- 🎙️ **Production AI Solutions & Multimodal:** Deploying production voice support agents with ElevenLabs, automated conversational systems on WhatsApp, and custom AI integrations with AWS Bedrock, CrewAI, LangChain, and Mastra AI.
+- 🔒 **Local-First & Privacy-Focused Tools:** Engineering on-device developer utilities like [`onloq`](https://github.com/adhilroshan/onloq) (local activity & code change logger with Ollama AI summarization) and [`resumix`](https://github.com/adhilroshan/resumix).
+- ⚡ **Full-Stack Engineering & DevTools:** Crafting modern web platforms with React 19, Next.js, Node.js, and browser extensions like [`excalihub`](https://github.com/adhilroshan/excalihub).
 - 🎮 **Tinkering for Fun:** Experimenting with mobile apps in Flutter/Dart and systems hacking in Rust when exploring new ideas.
 
 ---
 
-### 🛠️ Featured Original Projects
+### 🛠️ Featured Projects
 
 <table>
   <tr>
@@ -79,16 +88,16 @@
 <div align="center">
 
 <p>
-  <b>Primary Stack</b><br/>
+  <b>Languages & Full-Stack Core</b><br/>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,py,nodejs,react,nextjs,tailwind,fastapi" alt="Primary Stack" />
+    <img src="https://skillicons.dev/icons?i=ts,js,py,nodejs,react,nextjs,tailwind,fastapi,django,java" alt="Languages & Full Stack Core" />
   </a>
 </p>
 
 <p>
-  <b>AI, Data & Infrastructure</b><br/>
+  <b>AI, Agents & Data Stack</b><br/>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=pytorch,sqlite,postgres,mongodb,docker,git,linux" alt="AI, Data & Infrastructure" />
+    <img src="https://skillicons.dev/icons?i=pytorch,postgres,mongodb,redis,sqlite,docker,kubernetes,aws,gcp" alt="AI, Data & Cloud Stack" />
   </a>
 </p>
 
