@@ -5,7 +5,7 @@
 ## <b> ⌨️ Coding activity </b>
 
 <!--START_SECTION:worklog-->
-🔥 Current streak: 12 days · Longest: 12 days
+🔥 Current streak: 13 days · Longest: 13 days
 
 ![streak](assets/streak.svg)
 
