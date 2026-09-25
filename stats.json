@@ -1,5 +1,5 @@
 {
-  "current_streak_days": 14,
+  "current_streak_days": 15,
   "daily_counts": {
     "2026-04-28": 4,
     "2026-04-30": 5,
@@ -38,11 +38,12 @@
     "2026-09-21": 10,
     "2026-09-22": 14,
     "2026-09-23": 34,
-    "2026-09-24": 56
+    "2026-09-24": 56,
+    "2026-09-25": 1
   },
   "generated_at": "2026-09-25",
-  "last_7_days": 126,
-  "longest_streak_days": 14,
+  "last_7_days": 127,
+  "longest_streak_days": 15,
   "projects": 23,
-  "total_sessions": 333
+  "total_sessions": 334
 }
