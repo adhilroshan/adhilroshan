@@ -48,13 +48,3 @@
 </p>
 
 ---
-
-### Engineering Activity &amp; Streak
-
-<!--START_SECTION:worklog-->
-Current streak: 11 days · Longest: 11 days
-
-![streak](assets/streak.svg)
-
-![activity](assets/activity.svg)
-<!--END_SECTION:worklog-->
